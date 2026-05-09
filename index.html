@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Художник Натали Смирнова</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="snow" aria-hidden="true" id="snowLayer"></div>
+
+  <main class="page">
+    <section class="screen active" id="mainScreen">
+      <div class="hero">
+        <div class="photo-wrap">
+          <img
+            src="file:///C:/Users/Aser/.cursor/projects/c-Users-Aser-Desktop/assets/c__Users_Aser_AppData_Roaming_Cursor_User_workspaceStorage_dc86408988e8893e513bfc6b3e7ef1dc_images_czm13ChluuKRbhQB6TuuYBcP1xnfxPivJ-hlZye5KGQfvOgarPy6EDv65GKwSyJsoSzNU3n_Iu9zaDwdDgxJQ9Ag-cb7be56e-4be1-46f1-8265-c3d02fb9efbd.png"
+            alt="Натали Смирнова"
+          />
+        </div>
+
+        <h1>Художник Натали Смирнова</h1>
+        <p class="subtitle">
+          Добро пожаловать в творческое пространство, где живут свет, эмоции и характер.
+          Выберите интересующий раздел ниже.
+        </p>
+
+        <div class="grid">
+          <button class="btn" type="button" data-modal-open="aboutModal">Обо мне</button>
+          <button class="btn primary" type="button" id="showWorksBtn">Посмотреть работы</button>
+          <button class="btn" type="button" data-modal-open="contactsModal">Контакты</button>
+          <button class="btn" type="button" data-modal-open="connectModal">Связаться</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="screen" id="worksScreen">
+      <div class="hero">
+        <div class="works-head">
+          <h2 class="works-title">Мои работы</h2>
+          <button class="btn" type="button" id="backBtn">Назад</button>
+        </div>
+        <p class="works-note">
+          Выберите направление: от классических портретов до творческих шаржей и авторских картин.
+        </p>
+        <div class="grid">
+          <button class="btn primary category-btn active" type="button" data-category="portraits">Портреты</button>
+          <button class="btn category-btn" type="button" data-category="caricatures">Шаржи</button>
+          <button class="btn category-btn" type="button" data-category="paintings">Картины</button>
+        </div>
+
+        <div class="gallery" id="galleryList">
+          <article class="gallery-item" data-category="portraits">
+            <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=900&q=80" alt="Портрет 1" />
+            <div class="gallery-meta"><strong>Портрет</strong><span>Нежный свет</span></div>
+          </article>
+          <article class="gallery-item" data-category="portraits">
+            <img src="https://images.unsplash.com/photo-1464863979621-258859e62245?auto=format&fit=crop&w=900&q=80" alt="Портрет 2" />
+            <div class="gallery-meta"><strong>Портрет</strong><span>Эмоциональный образ</span></div>
+          </article>
+          <article class="gallery-item" data-category="caricatures">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80" alt="Шарж 1" />
+            <div class="gallery-meta"><strong>Шарж</strong><span>Яркий характер</span></div>
+          </article>
+          <article class="gallery-item" data-category="caricatures">
+            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Шарж 2" />
+            <div class="gallery-meta"><strong>Шарж</strong><span>Креативная линия</span></div>
+          </article>
+          <article class="gallery-item" data-category="paintings">
+            <img src="https://images.unsplash.com/photo-1473447198193-c6c5f2f77e33?auto=format&fit=crop&w=900&q=80" alt="Картина 1" />
+            <div class="gallery-meta"><strong>Картина</strong><span>Теплые цвета</span></div>
+          </article>
+          <article class="gallery-item" data-category="paintings">
+            <img src="https://images.unsplash.com/photo-1473186578172-c141e6798cf4?auto=format&fit=crop&w=900&q=80" alt="Картина 2" />
+            <div class="gallery-meta"><strong>Картина</strong><span>Атмосферный пейзаж</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal" id="aboutModal" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close" type="button" data-modal-close>&times;</button>
+      <h3>Обо мне</h3>
+      <p>
+        Я, Натали Смирнова, создаю портреты, шаржи и авторские картины более 7 лет.
+        В каждой работе соединяю индивидуальность человека, настроение момента и силу цвета.
+      </p>
+    </div>
+  </div>
+
+  <div class="modal" id="contactsModal" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close" type="button" data-modal-close>&times;</button>
+      <h3>Контакты</h3>
+      <p>Email: natali.art@example.com</p>
+      <p>Телефон: +7 (999) 123-45-67</p>
+      <p>Город: Москва</p>
+    </div>
+  </div>
+
+  <div class="modal" id="connectModal" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close" type="button" data-modal-close>&times;</button>
+      <h3>Связаться</h3>
+      <form class="contact-form">
+        <input type="text" placeholder="Ваше имя" required />
+        <input type="email" placeholder="Email" required />
+        <textarea rows="4" placeholder="Опишите ваш запрос"></textarea>
+        <button class="btn primary" type="submit">Отправить заявку</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
