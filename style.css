@@ -8,13 +8,7 @@
   --accent: #ff8ad8;
   --accent-2: #8ddcff;
   --ring: rgba(255, 255, 255, 0.25);
-  --neon-pink: #ff3de8;
-  --neon-cyan: #3df5ff;
-  --neon-violet: #b06bff;
-  --neon-gold: #ffe566;
-  --neon-glow-pink: 0 0 8px rgba(255, 61, 232, 0.95), 0 0 20px rgba(255, 61, 232, 0.65), 0 0 40px rgba(255, 61, 232, 0.35);
-  --neon-glow-cyan: 0 0 8px rgba(61, 245, 255, 0.9), 0 0 22px rgba(61, 245, 255, 0.55), 0 0 44px rgba(61, 245, 255, 0.3);
-  --neon-glow-mix: 0 0 10px rgba(255, 61, 232, 0.75), 0 0 24px rgba(61, 245, 255, 0.55), 0 0 48px rgba(176, 107, 255, 0.35);
+  --block-glow: 0 0 24px rgba(255, 138, 216, 0.12), 0 0 48px rgba(141, 220, 255, 0.08);
 }
 
 * {
@@ -164,12 +158,11 @@ body::after {
 
 .hero {
   background: var(--card);
-  border: 1px solid rgba(255, 61, 232, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.28);
   border-radius: 28px;
   backdrop-filter: blur(12px);
-  box-shadow: var(--neon-glow-mix), 0 20px 60px rgba(0, 0, 0, 0.35);
+  box-shadow: var(--block-glow), 0 20px 60px rgba(0, 0, 0, 0.35);
   padding: 24px;
-  animation: neonPulse 4s ease-in-out infinite;
 }
 
 .photo-wrap {
@@ -178,9 +171,9 @@ body::after {
   margin: 0 auto 18px;
   border-radius: 20px;
   overflow: hidden;
-  border: 2px solid rgba(61, 245, 255, 0.75);
-  box-shadow: var(--neon-glow-cyan), 0 16px 30px rgba(0, 0, 0, 0.35);
-  animation: softPulse 3.5s ease-in-out infinite, neonPulse 4.2s ease-in-out infinite;
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.35);
+  animation: softPulse 3.5s ease-in-out infinite;
 }
 
 .photo-wrap img {
@@ -213,23 +206,22 @@ h1 {
 }
 
 .btn {
-  border: 1px solid rgba(255, 61, 232, 0.7);
-  background: linear-gradient(135deg, rgba(255, 61, 232, 0.22), rgba(61, 245, 255, 0.1));
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.04));
   color: #fff;
   border-radius: 14px;
   padding: 14px 16px;
   font-size: 1rem;
   cursor: none;
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
-  box-shadow: var(--neon-glow-pink), 0 10px 18px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.25);
   min-height: 56px;
-  text-shadow: 0 0 12px rgba(255, 255, 255, 0.45);
 }
 
 .btn:hover {
   transform: translateY(-3px);
-  border-color: rgba(61, 245, 255, 0.95);
-  box-shadow: var(--neon-glow-mix), 0 16px 22px rgba(0, 0, 0, 0.35);
+  border-color: rgba(255, 255, 255, 0.65);
+  box-shadow: 0 16px 22px rgba(0, 0, 0, 0.35);
 }
 
 .btn:active {
@@ -238,9 +230,8 @@ h1 {
 
 .btn.primary,
 .btn.active {
-  background: linear-gradient(130deg, rgba(255, 61, 232, 0.55), rgba(61, 245, 255, 0.45));
-  border-color: rgba(255, 230, 102, 0.85);
-  box-shadow: 0 0 12px rgba(255, 230, 102, 0.85), var(--neon-glow-mix), 0 10px 18px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(130deg, rgba(255, 138, 216, 0.55), rgba(141, 220, 255, 0.45));
+  border-color: rgba(255, 255, 255, 0.5);
 }
 
 .works-head {
@@ -277,18 +268,11 @@ h1 {
 
 .gallery-item {
   background: rgba(255, 255, 255, 0.07);
-  border: 1px solid rgba(61, 245, 255, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 14px;
   overflow: hidden;
-  box-shadow: var(--neon-glow-cyan), 0 12px 22px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 12px 22px rgba(0, 0, 0, 0.25);
   animation: fadeInUp 0.5s ease;
-  transition: box-shadow 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
-}
-
-.gallery-item:hover {
-  border-color: rgba(255, 61, 232, 0.85);
-  box-shadow: var(--neon-glow-mix), 0 14px 26px rgba(0, 0, 0, 0.3);
-  transform: translateY(-2px);
 }
 
 .gallery-item img {
@@ -323,11 +307,11 @@ h1 {
   position: relative;
   width: min(520px, 100%);
   border-radius: 18px;
-  border: 1px solid rgba(255, 61, 232, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.28);
   background: linear-gradient(145deg, rgba(37, 32, 70, 0.95), rgba(32, 40, 84, 0.95));
-  box-shadow: var(--neon-glow-mix), 0 20px 50px rgba(0, 0, 0, 0.4);
+  box-shadow: var(--block-glow), 0 20px 50px rgba(0, 0, 0, 0.4);
   padding: 22px;
-  animation: fadeInUp 0.3s ease, neonPulse 4.5s ease-in-out infinite;
+  animation: fadeInUp 0.3s ease;
 }
 
 .modal-card h3 {
@@ -348,7 +332,6 @@ h1 {
   color: #fff;
   font-size: 1.8rem;
   cursor: none;
-  text-shadow: var(--neon-glow-pink);
 }
 
 .modal.gallery-lightbox {
@@ -392,21 +375,18 @@ h1 {
 .contact-form input,
 .contact-form textarea {
   width: 100%;
-  border: 1px solid rgba(61, 245, 255, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   background: rgba(255, 255, 255, 0.08);
   color: #fff;
   border-radius: 10px;
   padding: 12px;
   font: inherit;
-  box-shadow: 0 0 10px rgba(61, 245, 255, 0.25);
-  transition: box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: none;
-  border-color: rgba(255, 61, 232, 0.9);
-  box-shadow: var(--neon-glow-mix);
+  border-color: rgba(255, 255, 255, 0.55);
 }
 
 .contact-form input::placeholder,
@@ -422,7 +402,7 @@ h1 {
   z-index: 12;
   width: 172px;
   height: 241px;
-  cursor: none;
+  cursor: pointer;
   user-select: none;
 }
 
@@ -434,9 +414,10 @@ h1 {
   height: 241px;
   border-radius: 52px;
   overflow: hidden;
-  border: 2px solid rgba(255, 61, 232, 0.55);
-  box-shadow: var(--neon-glow-pink);
-  filter: drop-shadow(0 16px 28px rgba(0, 0, 0, 0.48)) drop-shadow(0 6px 14px rgba(0, 0, 0, 0.32));
+  border: none;
+  box-shadow: none;
+  filter: drop-shadow(0 16px 28px rgba(0, 0, 0, 0.48)) drop-shadow(0 6px 14px rgba(0, 0, 0, 0.32))
+    drop-shadow(0 0 0 1px rgba(255, 255, 255, 0.22));
   background: transparent;
 }
 
@@ -465,8 +446,7 @@ h1 {
   pointer-events: none;
   transition: opacity 0.25s ease, transform 0.25s ease;
   filter: drop-shadow(0 10px 22px rgba(0, 0, 0, 0.22)) drop-shadow(0 3px 8px rgba(0, 0, 0, 0.12));
-  border: 2px solid rgba(255, 61, 232, 0.65);
-  box-shadow: var(--neon-glow-pink);
+  border: 1px solid rgba(70, 57, 95, 0.07);
   z-index: 1;
 }
 
@@ -555,11 +535,6 @@ h1 {
   }
 }
 
-@keyframes neonPulse {
-  0%, 100% { filter: brightness(1) saturate(1); }
-  50% { filter: brightness(1.1) saturate(1.15); }
-}
-
 @keyframes sparkFly {
   0% {
     opacity: 1;
@@ -571,9 +546,9 @@ h1 {
   }
 }
 
-@keyframes wandTwinkle {
-  0%, 100% { opacity: 0.75; transform: scale(1); }
-  50% { opacity: 1; transform: scale(1.15); }
+@keyframes brushDab {
+  0%, 100% { transform: rotate(-42deg) scale(1); }
+  50% { transform: rotate(-42deg) scale(1.06); }
 }
 
 .magic-sparks {
@@ -592,20 +567,9 @@ h1 {
   height: var(--size, 6px);
   border-radius: 50%;
   background: var(--color, #ffe566);
-  box-shadow: 0 0 8px var(--color, #ffe566), 0 0 16px var(--color, #ffe566);
+  box-shadow: 0 0 4px var(--color, #ffe566);
   animation: sparkFly var(--dur, 520ms) ease-out forwards;
   pointer-events: none;
-}
-
-.magic-spark.star {
-  width: 0;
-  height: 0;
-  border-radius: 0;
-  background: transparent;
-  font-size: var(--size, 10px);
-  line-height: 1;
-  color: var(--color, #fff);
-  box-shadow: 0 0 10px var(--color, #fff);
 }
 
 .magic-cursor {
@@ -619,66 +583,68 @@ h1 {
   pointer-events: none;
   transition: opacity 0.2s ease;
   will-change: transform;
+  transform-origin: 4px 36px;
 }
 
-.magic-cursor.clicking .wand-tip {
-  animation: wandTwinkle 0.2s ease;
+.magic-cursor.clicking .brush-bristles {
+  transform: rotate(-42deg) scaleY(0.88);
 }
 
-.magic-cursor.clicking .wand-glow {
+.magic-cursor.clicking .brush-paint {
   opacity: 1;
-  transform: scale(1.6);
+  transform: rotate(-42deg) scale(1.35);
 }
 
-.wand-stick {
+.brush-handle {
+  position: absolute;
+  left: 2px;
+  top: 10px;
+  width: 7px;
+  height: 30px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #5c3310, #a86b2d 45%, #6b3f12);
+  box-shadow: inset 1px 0 rgba(255, 255, 255, 0.2);
+  transform: rotate(-42deg);
+  transform-origin: 4px 36px;
+}
+
+.brush-ferrule {
   position: absolute;
   left: 0;
-  top: 0;
-  width: 5px;
-  height: 34px;
-  border-radius: 3px;
-  background: linear-gradient(180deg, #c9a227, #6b3f12 55%, #3d2208);
-  box-shadow: 0 0 8px rgba(255, 200, 80, 0.6);
-  transform: rotate(-38deg);
-  transform-origin: 2px 32px;
+  top: 2px;
+  width: 9px;
+  height: 10px;
+  border-radius: 2px;
+  background: linear-gradient(180deg, #e8ecf0, #9aa3ad 55%, #6d757d);
+  transform: rotate(-42deg);
+  transform-origin: 4px 36px;
 }
 
-.wand-tip {
+.brush-bristles {
   position: absolute;
-  left: -6px;
+  left: -3px;
+  top: -10px;
+  width: 14px;
+  height: 16px;
+  border-radius: 40% 40% 20% 60%;
+  background: linear-gradient(160deg, #f5e6c8 0%, #e8c98a 55%, #d4a85c 100%);
+  transform: rotate(-42deg);
+  transform-origin: 4px 36px;
+  transition: transform 0.12s ease;
+}
+
+.brush-paint {
+  position: absolute;
+  left: 1px;
   top: -14px;
-  font-size: 18px;
-  color: var(--neon-gold);
-  text-shadow: 0 0 8px #fff, 0 0 16px var(--neon-pink), 0 0 24px var(--neon-cyan);
-  transform: rotate(-38deg);
-  animation: wandTwinkle 1.6s ease-in-out infinite;
-}
-
-.wand-glow {
-  position: absolute;
-  left: -14px;
-  top: -22px;
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(255, 230, 102, 0.9), rgba(255, 61, 232, 0.35), transparent 70%);
-  opacity: 0.55;
-  transform: scale(1);
-  transition: transform 0.15s ease, opacity 0.15s ease;
-  filter: blur(2px);
-}
-
-h1,
-.works-title {
-  text-shadow: 0 0 12px rgba(255, 61, 232, 0.7), 0 0 24px rgba(61, 245, 255, 0.45);
-}
-
-.works-vk-note a {
-  text-shadow: 0 0 10px rgba(61, 245, 255, 0.8);
-}
-
-.gallery-lightbox-figure img {
-  box-shadow: var(--neon-glow-mix), 0 20px 50px rgba(0, 0, 0, 0.45);
+  width: 8px;
+  height: 8px;
+  border-radius: 50% 50% 40% 60%;
+  background: radial-gradient(circle at 30% 30%, #ff9de0, var(--accent) 55%, #c44fa8);
+  opacity: 0.92;
+  transform: rotate(-42deg);
+  transform-origin: 4px 36px;
+  transition: transform 0.12s ease, opacity 0.12s ease;
 }
 
 @media (hover: hover) and (pointer: fine) {
@@ -686,16 +652,15 @@ h1,
   body.has-magic-cursor * {
     cursor: none !important;
   }
+
+  body.has-magic-cursor .mood-artist,
+  body.has-magic-cursor .mood-artist * {
+    cursor: pointer !important;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .hero,
-  .photo-wrap,
-  .modal-card {
-    animation: none;
-  }
-
-  .wand-tip {
+  .photo-wrap {
     animation: none;
   }
 }

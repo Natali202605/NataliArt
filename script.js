@@ -3,7 +3,7 @@ const magicSparks = document.getElementById("magicSparks");
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const hasFinePointer = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
 
-const sparkColors = ["#ff3de8", "#3df5ff", "#ffe566", "#b06bff", "#ffffff"];
+const sparkColors = ["#ff8ad8", "#8ddcff", "#ffe0a8", "#c9a0ff", "#fff5e8"];
 
 const burstMagic = (x, y, intensity = 1) => {
   if (!magicSparks || prefersReducedMotion) return;
@@ -11,7 +11,7 @@ const burstMagic = (x, y, intensity = 1) => {
   const count = Math.round(10 + intensity * 8);
   for (let i = 0; i < count; i += 1) {
     const spark = document.createElement("span");
-    const isStar = Math.random() < 0.35;
+    const isStar = false;
     const angle = Math.random() * Math.PI * 2;
     const distance = (Math.random() * 42 + 18) * intensity;
     const sx = Math.cos(angle) * distance;
@@ -50,7 +50,7 @@ if (hasFinePointer && magicCursor && !prefersReducedMotion) {
   const moveCursor = (x, y) => {
     cursorX = x;
     cursorY = y;
-    magicCursor.style.transform = `translate(${x}px, ${y}px)`;
+    magicCursor.style.transform = `translate(${x - 4}px, ${y - 36}px)`;
   };
 
   document.addEventListener(
@@ -388,12 +388,25 @@ document.addEventListener("click", () => {
 });
 
 const artistVideo = document.querySelector(".artist-photo video");
+const personaVideoRemote =
+  "https://media.githubusercontent.com/media/Natali202605/----------1/main/video/persona.mp4";
+
 if (artistVideo) {
-  artistVideo.play().catch(() => {});
+  if (location.hostname.endsWith("github.io")) {
+    artistVideo.src = personaVideoRemote;
+  }
+
+  const playPersonaVideo = () => {
+    artistVideo.play().catch(() => {});
+  };
+
+  playPersonaVideo();
+  artistVideo.addEventListener("loadeddata", playPersonaVideo, { once: true });
+
   document.addEventListener(
     "visibilitychange",
     () => {
-      if (!document.hidden) artistVideo.play().catch(() => {});
+      if (!document.hidden) playPersonaVideo();
     },
     { passive: true }
   );
