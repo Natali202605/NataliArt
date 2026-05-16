@@ -8,7 +8,7 @@
   --accent: #ff8ad8;
   --accent-2: #8ddcff;
   --ring: rgba(255, 255, 255, 0.25);
-  --block-glow: 0 0 28px rgba(255, 138, 216, 0.24), 0 0 52px rgba(141, 220, 255, 0.16), 0 0 72px rgba(176, 107, 255, 0.1);
+  --block-glow: 0 0 34px rgba(255, 90, 210, 0.42), 0 0 62px rgba(80, 210, 255, 0.32), 0 0 90px rgba(170, 90, 255, 0.22);
 }
 
 * {
@@ -158,7 +158,7 @@ body::after {
 
 .hero {
   background: var(--card);
-  border: 1px solid rgba(255, 180, 230, 0.38);
+  border: 1px solid rgba(255, 150, 220, 0.5);
   border-radius: 28px;
   backdrop-filter: blur(12px);
   box-shadow: var(--block-glow), 0 20px 60px rgba(0, 0, 0, 0.35);
@@ -307,7 +307,7 @@ h1 {
   position: relative;
   width: min(520px, 100%);
   border-radius: 18px;
-  border: 1px solid rgba(180, 210, 255, 0.35);
+  border: 1px solid rgba(140, 200, 255, 0.48);
   background: linear-gradient(145deg, rgba(37, 32, 70, 0.95), rgba(32, 40, 84, 0.95));
   box-shadow: var(--block-glow), 0 20px 50px rgba(0, 0, 0, 0.4);
   padding: 22px;
@@ -546,14 +546,25 @@ h1 {
   }
 }
 
-@keyframes artRingSpin {
+@keyframes orbSpin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
 
-@keyframes artOrbit {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(-360deg); }
+@keyframes orbNeonPulse {
+  0%, 100% {
+    opacity: 0.75;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.12);
+  }
+}
+
+@keyframes orbShimmer {
+  0%, 100% { filter: hue-rotate(0deg) brightness(1); }
+  50% { filter: hue-rotate(28deg) brightness(1.15); }
 }
 
 .magic-sparks {
@@ -572,7 +583,7 @@ h1 {
   height: var(--size, 6px);
   border-radius: 50%;
   background: var(--color, #ffe566);
-  box-shadow: 0 0 4px var(--color, #ffe566);
+  box-shadow: 0 0 8px var(--color, #ffe566), 0 0 14px var(--color, #ffe566);
   animation: sparkFly var(--dur, 520ms) ease-out forwards;
   pointer-events: none;
 }
@@ -582,111 +593,106 @@ h1 {
   left: 0;
   top: 0;
   z-index: 9999;
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
   opacity: 1;
   pointer-events: none;
   transition: opacity 0.2s ease;
   will-change: transform;
 }
 
-.art-cursor-ring {
+.orb-neon-halo {
   position: absolute;
-  inset: 0;
+  inset: -10px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 45, 220, 0.65) 0%,
+    rgba(50, 240, 255, 0.45) 40%,
+    transparent 72%
+  );
+  filter: blur(10px);
+  animation: orbNeonPulse 2.2s ease-in-out infinite;
+}
+
+.orb-aurora {
+  position: absolute;
+  inset: 2px;
   border-radius: 50%;
   background: conic-gradient(
     from 0deg,
-    #ff8ad8,
-    #8ddcff,
-    #ffe0a8,
-    #c9a0ff,
-    #ff8ad8
+    #ff3de8,
+    #3df5ff,
+    #ffe566,
+    #b06bff,
+    #ff3de8
   );
-  filter: blur(1px);
-  opacity: 0.85;
-  animation: artRingSpin 6s linear infinite;
-  mask: radial-gradient(circle, transparent 42%, #000 46%, #000 100%);
-  -webkit-mask: radial-gradient(circle, transparent 42%, #000 46%, #000 100%);
+  animation: orbSpin 2.8s linear infinite, orbShimmer 3.6s ease-in-out infinite;
+  opacity: 0.92;
 }
 
-.art-cursor-orbit {
+.orb-body {
   position: absolute;
-  inset: 3px;
+  inset: 5px;
   border-radius: 50%;
-  border: 1px dashed rgba(255, 255, 255, 0.35);
-  animation: artOrbit 9s linear infinite;
+  background: radial-gradient(
+    circle at 30% 26%,
+    rgba(255, 255, 255, 0.98) 0%,
+    rgba(255, 120, 220, 0.9) 22%,
+    rgba(90, 200, 255, 0.78) 52%,
+    rgba(70, 35, 130, 0.95) 100%
+  );
+  box-shadow:
+    inset -5px -7px 14px rgba(0, 0, 0, 0.4),
+    inset 4px 4px 10px rgba(255, 255, 255, 0.45),
+    0 0 14px rgba(255, 50, 220, 0.9),
+    0 0 28px rgba(50, 240, 255, 0.75),
+    0 0 44px rgba(180, 90, 255, 0.5);
 }
 
-.art-cursor-palette {
+.orb-shine {
   position: absolute;
-  left: 7px;
-  top: 7px;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background: radial-gradient(circle at 35% 30%, #3d3558, #221e34 70%);
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  box-shadow: inset 0 1px 4px rgba(255, 255, 255, 0.12);
-}
-
-.art-cursor-swatch {
-  position: absolute;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.45);
-  box-shadow: 0 0 6px currentColor;
-}
-
-.swatch-pink {
-  left: 5px;
-  top: 9px;
-  background: #ff8ad8;
-  color: #ff8ad8;
-}
-
-.swatch-cyan {
-  right: 5px;
-  top: 8px;
-  background: #8ddcff;
-  color: #8ddcff;
-}
-
-.swatch-gold {
   left: 9px;
-  bottom: 5px;
-  background: #ffe0a8;
-  color: #ffe0a8;
+  top: 7px;
+  width: 12px;
+  height: 9px;
+  border-radius: 50%;
+  background: radial-gradient(ellipse, rgba(255, 255, 255, 0.95), transparent 70%);
+  transform: rotate(-28deg);
+  pointer-events: none;
 }
 
-.swatch-violet {
-  right: 8px;
-  bottom: 6px;
-  background: #c9a0ff;
-  color: #c9a0ff;
-}
-
-.art-cursor-tip {
+.orb-core {
   position: absolute;
-  left: 14px;
-  top: 14px;
-  width: 4px;
-  height: 4px;
-  margin: -2px 0 0 -2px;
+  left: 50%;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  margin: -3.5px 0 0 -3.5px;
   border-radius: 50%;
   background: #fff;
-  box-shadow: 0 0 8px #fff, 0 0 14px var(--accent), 0 0 20px var(--accent-2);
+  box-shadow:
+    0 0 8px #fff,
+    0 0 16px #ff3de8,
+    0 0 28px #3df5ff;
 }
 
-.magic-cursor.clicking .art-cursor-ring {
+.magic-cursor.clicking .orb-neon-halo {
   opacity: 1;
-  filter: blur(0.5px);
-  transform: scale(1.12);
+  transform: scale(1.25);
 }
 
-.magic-cursor.clicking .art-cursor-tip {
-  transform: scale(1.4);
-  box-shadow: 0 0 10px #fff, 0 0 18px var(--accent), 0 0 26px var(--accent-2);
+.magic-cursor.clicking .orb-body {
+  box-shadow:
+    inset -5px -7px 14px rgba(0, 0, 0, 0.4),
+    inset 4px 4px 10px rgba(255, 255, 255, 0.5),
+    0 0 20px rgba(255, 50, 220, 1),
+    0 0 36px rgba(50, 240, 255, 0.95),
+    0 0 56px rgba(180, 90, 255, 0.7);
+}
+
+.magic-cursor.clicking .orb-core {
+  transform: scale(1.35);
 }
 
 @media (hover: hover) and (pointer: fine) {
@@ -706,8 +712,8 @@ h1 {
     animation: none;
   }
 
-  .art-cursor-ring,
-  .art-cursor-orbit {
+  .orb-neon-halo,
+  .orb-aurora {
     animation: none;
   }
 }

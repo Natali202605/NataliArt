@@ -3,7 +3,7 @@ const magicSparks = document.getElementById("magicSparks");
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const hasFinePointer = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
 
-const sparkColors = ["#ff8ad8", "#8ddcff", "#ffe0a8", "#c9a0ff", "#fff5e8"];
+const sparkColors = ["#ff3de8", "#3df5ff", "#ffe566", "#b06bff", "#ffffff"];
 
 const burstMagic = (x, y, intensity = 1) => {
   if (!magicSparks || prefersReducedMotion) return;
@@ -50,7 +50,7 @@ if (hasFinePointer && magicCursor && !prefersReducedMotion) {
   const moveCursor = (x, y) => {
     cursorX = x;
     cursorY = y;
-    magicCursor.style.transform = `translate(${x - 16}px, ${y - 16}px)`;
+    magicCursor.style.transform = `translate(${x - 20}px, ${y - 20}px)`;
   };
 
   document.addEventListener(
