@@ -38,7 +38,7 @@ const playButtonChime = () => {
 
   const now = ctx.currentTime;
   const master = ctx.createGain();
-  master.gain.value = 0.17;
+  master.gain.value = 0.3;
   master.connect(ctx.destination);
 
   const pair = buttonChimeSets[chimeVariant % buttonChimeSets.length];
@@ -48,7 +48,7 @@ const playButtonChime = () => {
     const start = now + index * 0.045;
     const noteGain = ctx.createGain();
     noteGain.gain.setValueAtTime(0, start);
-    noteGain.gain.linearRampToValueAtTime(0.26, start + 0.015);
+    noteGain.gain.linearRampToValueAtTime(0.42, start + 0.015);
     noteGain.gain.exponentialRampToValueAtTime(0.001, start + 0.22);
     noteGain.connect(master);
 
@@ -450,16 +450,18 @@ connectBtn?.addEventListener("click", (event) => {
 
 document.addEventListener("click", (event) => {
   if (!artistTip) return;
-  if (event.target.closest("#moodArtist, .btn, .modal")) return;
+  if (event.target.closest("#moodArtist, .mood-artist-zone, .btn, .modal")) return;
   artistTip.classList.remove("show");
 });
 
-document.addEventListener("click", async (event) => {
+const handleButtonChime = async (event) => {
   const button = event.target.closest(".btn, .modal-close");
   if (!button || prefersReducedMotion) return;
   const ready = await ensureAudioReady();
   if (ready) playButtonChime();
-});
+};
+
+document.addEventListener("click", handleButtonChime);
 
 const artistVideo = document.querySelector(".artist-photo video");
 const personaVideoSource = artistVideo?.querySelector("source");

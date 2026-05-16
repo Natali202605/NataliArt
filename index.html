@@ -154,6 +154,28 @@
         </div>
       </div>
     </section>
+
+    <aside class="mood-artist-zone" aria-labelledby="moodArtistZoneTitle">
+      <p class="mood-artist-zone-title" id="moodArtistZoneTitle">Акварелька</p>
+      <p class="mood-artist-zone-sub">Подсказки и настроение дня</p>
+      <div class="mood-artist" id="moodArtist" aria-label="Подсказки и анимированный персонаж">
+        <div class="artist-tip" id="artistTip">
+          <span class="artist-tip-text">Пусть сегодня будет день красоты, тепла и маленьких чудес!</span>
+        </div>
+        <div class="artist-photo">
+          <video
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="auto"
+            aria-label="Анимированный персонаж Акварелька"
+          >
+            <source src="video/persona.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </aside>
   </main>
 
   <div class="modal" id="aboutModal" aria-hidden="true">
@@ -203,24 +225,6 @@
     <figure class="gallery-lightbox-figure">
       <img id="galleryLightboxImg" alt="" />
     </figure>
-  </div>
-
-  <div class="mood-artist" id="moodArtist" aria-label="Подсказки и анимированный персонаж">
-    <div class="artist-tip" id="artistTip">
-      <span class="artist-tip-text">Пусть сегодня будет день красоты, тепла и маленьких чудес!</span>
-    </div>
-    <div class="artist-photo">
-      <video
-        autoplay
-        muted
-        loop
-        playsinline
-        preload="auto"
-        aria-label="Анимированный персонаж Акварелька"
-      >
-        <source src="video/persona.mp4" type="video/mp4" />
-      </video>
-    </div>
   </div>
 
   <script src="script.js"></script>
