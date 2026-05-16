@@ -278,12 +278,39 @@ document.addEventListener("keydown", (event) => {
   }
 });
 
-const contactForm = document.querySelector(".contact-form");
+const connectForm = document.getElementById("connectForm");
+const contactConsent = document.getElementById("contactConsent");
+const contactConsentBox = document.getElementById("contactConsentBox");
+const contactConsentError = document.getElementById("contactConsentError");
 
-contactForm?.addEventListener("submit", (event) => {
+const setConsentError = (show) => {
+  if (!contactConsentBox || !contactConsentError) return;
+  contactConsentBox.classList.toggle("is-error", show);
+  contactConsentError.hidden = !show;
+};
+
+contactConsent?.addEventListener("change", () => {
+  if (contactConsent.checked) setConsentError(false);
+});
+
+connectForm?.addEventListener("submit", (event) => {
   event.preventDefault();
+
+  if (!connectForm.checkValidity()) {
+    connectForm.reportValidity();
+    if (contactConsent && !contactConsent.checked) setConsentError(true);
+    return;
+  }
+
+  if (contactConsent && !contactConsent.checked) {
+    setConsentError(true);
+    contactConsent.focus();
+    return;
+  }
+
+  setConsentError(false);
   alert("Спасибо! Ваша заявка отправлена.");
-  contactForm.reset();
+  connectForm.reset();
   closeAllModals();
 });
 

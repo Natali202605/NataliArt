@@ -207,15 +207,39 @@
     </div>
   </div>
 
-  <div class="modal" id="connectModal" aria-hidden="true">
-    <div class="modal-card">
-      <button class="modal-close" type="button" data-modal-close>&times;</button>
-      <h3>Связаться</h3>
-      <form class="contact-form">
-        <input type="text" placeholder="Ваше имя" required />
-        <input type="email" placeholder="Email" required />
-        <textarea rows="4" placeholder="Опишите ваш запрос"></textarea>
-        <button class="btn primary" type="submit">Отправить заявку</button>
+  <div class="modal" id="connectModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="connectModalTitle">
+    <div class="modal-card modal-card--connect">
+      <button class="modal-close" type="button" data-modal-close aria-label="Закрыть">&times;</button>
+      <h3 id="connectModalTitle">Связаться</h3>
+      <p class="contact-form-lead">Оставьте контакты — мы свяжемся с вами.</p>
+      <form class="contact-form" id="connectForm" novalidate>
+        <label class="contact-field">
+          <span class="contact-label">Имя</span>
+          <input type="text" name="name" placeholder="Ваше имя" autocomplete="name" required />
+        </label>
+        <label class="contact-field">
+          <span class="contact-label">Почта</span>
+          <input type="email" name="email" placeholder="example@mail.ru" autocomplete="email" required />
+        </label>
+        <label class="contact-field">
+          <span class="contact-label">Номер телефона</span>
+          <input type="tel" name="phone" placeholder="+7 (999) 000-00-00" autocomplete="tel" required />
+        </label>
+        <label class="contact-field">
+          <span class="contact-label">Сообщение <span class="contact-label-optional">(необязательно)</span></span>
+          <textarea name="message" rows="3" placeholder="Кратко опишите запрос"></textarea>
+        </label>
+        <div class="contact-consent" id="contactConsentBox">
+          <label class="contact-consent-label">
+            <input class="contact-consent-input" type="checkbox" name="consent" id="contactConsent" required />
+            <span class="contact-consent-check" aria-hidden="true"></span>
+            <span class="contact-consent-text">Даю согласие на обработку персональных данных</span>
+          </label>
+          <p class="contact-consent-error" id="contactConsentError" role="alert" hidden>
+            Поставьте галочку, чтобы отправить заявку.
+          </p>
+        </div>
+        <button class="btn primary contact-submit" type="submit">Отправить заявку</button>
       </form>
     </div>
   </div>
