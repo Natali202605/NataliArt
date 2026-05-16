@@ -50,7 +50,7 @@ if (hasFinePointer && magicCursor && !prefersReducedMotion) {
   const moveCursor = (x, y) => {
     cursorX = x;
     cursorY = y;
-    magicCursor.style.transform = `translate(${x - 20}px, ${y - 20}px)`;
+    magicCursor.style.transform = `translate(${x - 13}px, ${y - 13}px)`;
   };
 
   document.addEventListener(
@@ -388,20 +388,42 @@ document.addEventListener("click", () => {
 });
 
 const artistVideo = document.querySelector(".artist-photo video");
-const personaVideoRemote =
-  "https://media.githubusercontent.com/media/Natali202605/----------1/main/video/persona.mp4";
+const personaVideoSource = artistVideo?.querySelector("source");
+const personaVideoRemotes = [
+  "https://media.githubusercontent.com/media/Natali202605/NataliArt/main/video/persona.mp4",
+  "https://media.githubusercontent.com/media/Natali202605/----------1/main/video/persona.mp4"
+];
 
 if (artistVideo) {
-  if (location.hostname.endsWith("github.io")) {
-    artistVideo.src = personaVideoRemote;
-  }
-
   const playPersonaVideo = () => {
     artistVideo.play().catch(() => {});
   };
 
+  const setPersonaVideoSrc = (url) => {
+    if (personaVideoSource) {
+      personaVideoSource.src = url;
+    } else {
+      artistVideo.src = url;
+    }
+    artistVideo.load();
+  };
+
+  if (location.hostname.endsWith("github.io")) {
+    setPersonaVideoSrc(personaVideoRemotes[0]);
+    artistVideo.addEventListener(
+      "error",
+      () => {
+        if (personaVideoSource?.src !== personaVideoRemotes[1]) {
+          setPersonaVideoSrc(personaVideoRemotes[1]);
+        }
+      },
+      { once: true }
+    );
+  }
+
   playPersonaVideo();
   artistVideo.addEventListener("loadeddata", playPersonaVideo, { once: true });
+  artistVideo.addEventListener("canplay", playPersonaVideo, { once: true });
 
   document.addEventListener(
     "visibilitychange",
