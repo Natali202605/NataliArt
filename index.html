@@ -4,17 +4,36 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Художник Натали Смирнова</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+    rel="stylesheet"
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="art-bg" aria-hidden="true">
+    <span class="art-orb orb-1"></span>
+    <span class="art-orb orb-2"></span>
+    <span class="art-orb orb-3"></span>
+    <span class="art-line line-1"></span>
+    <span class="art-line line-2"></span>
+  </div>
   <div class="snow" aria-hidden="true" id="snowLayer"></div>
+  <div class="magic-sparks" id="magicSparks" aria-hidden="true"></div>
+  <div class="magic-cursor" id="magicCursor" aria-hidden="true">
+    <span class="wand-glow"></span>
+    <span class="wand-stick"></span>
+    <span class="wand-tip">✦</span>
+  </div>
 
   <main class="page">
     <section class="screen active" id="mainScreen">
       <div class="hero">
         <div class="photo-wrap">
           <img
-            src="file:///C:/Users/Aser/.cursor/projects/c-Users-Aser-Desktop/assets/c__Users_Aser_AppData_Roaming_Cursor_User_workspaceStorage_dc86408988e8893e513bfc6b3e7ef1dc_images_czm13ChluuKRbhQB6TuuYBcP1xnfxPivJ-hlZye5KGQfvOgarPy6EDv65GKwSyJsoSzNU3n_Iu9zaDwdDgxJQ9Ag__1_-d38dc516-72ed-414d-8ce3-ede30a90ca31.png"
+            src="image/czm13ChluuKRbhQB6TuuYBcP1xnfxPivJ-hlZye5KGQfvOgarPy6EDv65GKwSyJsoSzNU3n_Iu9zaDwdDgxJQ9Ag (1).jpg"
             alt="Натали Смирнова"
           />
         </div>
@@ -43,36 +62,92 @@
         <p class="works-note">
           Выберите направление: от классических портретов до творческих шаржей и авторских картин.
         </p>
+        <p class="works-note works-vk-note">
+          Более подробно ознакомится с моими работами можно в сообществе ВК:
+          <a href="https://vk.ru/nataliyart" target="_blank" rel="noopener noreferrer">vk.ru/nataliyart</a>.
+        </p>
         <div class="grid">
           <button class="btn primary category-btn active" type="button" data-category="portraits">Портреты</button>
           <button class="btn category-btn" type="button" data-category="caricatures">Шаржи</button>
           <button class="btn category-btn" type="button" data-category="paintings">Картины</button>
+          <button class="btn category-btn" type="button" data-category="framing">Оформление</button>
         </div>
 
         <div class="gallery" id="galleryList">
           <article class="gallery-item" data-category="portraits">
-            <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=900&q=80" alt="Портрет 1" />
-            <div class="gallery-meta"><strong>Портрет</strong><span>Нежный свет</span></div>
+            <img src="image/portret/4fsnGvaFJ7JZ_3V1QvOcejGCFeBZ5Lg3O33s2k8dzsWN8iqJp0mHAKtQ4PiY2wi-ici6H3cVOUSZzmEoVIG006qA.jpg" alt="Портрет" />
           </article>
           <article class="gallery-item" data-category="portraits">
-            <img src="https://images.unsplash.com/photo-1464863979621-258859e62245?auto=format&fit=crop&w=900&q=80" alt="Портрет 2" />
-            <div class="gallery-meta"><strong>Портрет</strong><span>Эмоциональный образ</span></div>
+            <img src="image/portret/9IiKpjWFItDVThEPQseJUebv7Sv8aG4zPSeF3-L9K1LEeH3X36w5X3IuHxCHbj6aZJRM_Bebhw5S1IV_6UtPbIL_.jpg" alt="Портрет" />
+          </article>
+          <article class="gallery-item" data-category="portraits">
+            <img src="image/portret/AgY7Ivct8JdvVtxXEVQbf8_lOiBe2PF8cBTlmLI7U9EuZGVv6nMEVp1O1jZS2jN6pZq53NOmMR-lghtTK5V7-U0v.jpg" alt="Портрет" />
+          </article>
+          <article class="gallery-item" data-category="portraits">
+            <img src="image/portret/FQh8Jjmqh0Q4Aqm0nfy0g0m086nVggykNbfxJP35f-tkmCHQYleoHkPP6wCmbkTCEf5rUSv2xeqnr44eKwMxTVL3.jpg" alt="Портрет" />
+          </article>
+          <article class="gallery-item" data-category="portraits">
+            <img src="image/portret/HRQKxkJ1zhjrdsVWOtNbJyk9FHGtCGixvpSbGvjHeCFCGrNQIwKl7HSug0CDEOHmaSM5pwzDSYXmi8_l_e9GndCk.jpg" alt="Портрет" />
+          </article>
+          <article class="gallery-item" data-category="portraits">
+            <img src="image/portret/ms59zlgV-rj6OBitO7UcBwNmLrB39VRiC57YSAOF0fOroxTzNqzEIWcdOOPf4DXllFJE1vl5AjBRYntBQdEj4DFB.jpg" alt="Портрет" />
+          </article>
+          <article class="gallery-item" data-category="portraits">
+            <img src="image/portret/OtMtMHKQp6BrZo38s0pyY-1uZGJusyEsWGEQZHG8mgM34aLigEjWOxQNbx5k4lxmmpdFQFJjgyEin2m_j4SyEqaL.jpg" alt="Портрет" />
+          </article>
+          <article class="gallery-item" data-category="portraits">
+            <img src="image/portret/RFmGd37BHax8RDtbc3Kxopk3b2Msf7NfthQhQb27c6ugblVNLXf9cTZC_vfBRq64N5TfwmJhkAv8aICrLbTvxOcF.jpg" alt="Портрет" />
+          </article>
+          <article class="gallery-item" data-category="portraits">
+            <img src="image/portret/wmpnwjb191_xxyGffHcr65zTtvafzfyWjoH0teP1YQQndTBDLgqxWh2_4bmsirXdyprs1boKImueuzpNl-5dPppc.jpg" alt="Портрет" />
+          </article>
+
+          <article class="gallery-item" data-category="caricatures">
+            <img src="image/sarg/_cBQijj3kWSxdZBtbLUsHDDWB8J4fmpWigbUVyWZ94iEcJexu-AfNHtbhyjw4tUT7P5T8oaXAFEzh313ImfbHWRZ.jpg" alt="Шарж" />
           </article>
           <article class="gallery-item" data-category="caricatures">
-            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80" alt="Шарж 1" />
-            <div class="gallery-meta"><strong>Шарж</strong><span>Яркий характер</span></div>
+            <img src="image/sarg/cLnhzTujOmVQg65YqYIrsviniqKq5XCs3CMq5LJhGFdRR6eLu9HR6HpwGgUapTKkutz9ovRS21fS8KVtFdNOMXcI.jpg" alt="Шарж" />
           </article>
           <article class="gallery-item" data-category="caricatures">
-            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Шарж 2" />
-            <div class="gallery-meta"><strong>Шарж</strong><span>Креативная линия</span></div>
+            <img src="image/sarg/pThxy03c1qtbWHIG97eRLLa0Fcb37G3nm7nJzxd703JUxy_-_DG09qTLr07SGy4SY2u19bzAYuGrtF3OdiZYsEPI.jpg" alt="Шарж" />
+          </article>
+          <article class="gallery-item" data-category="caricatures">
+            <img src="image/sarg/vLbqwQWIQJTvC45tcAxKf4qWuNlpGONGedtH2ZQoInSnQ0Kv9SMK1kJk9HiIz_SjsBG_bz-PBKzYP4oIUjwACBiG.jpg" alt="Шарж" />
+          </article>
+          <article class="gallery-item" data-category="caricatures">
+            <img src="image/sarg/WkpUVs5B2yoDmFRo_cxdhAJ-FA0h4uv-3Wye--bhg5hOCvy-9A-CAIfkssU8dDlYStONjBpTZmk4VqJrqIzX0WmE.jpg" alt="Шарж" />
+          </article>
+
+          <article class="gallery-item" data-category="paintings">
+            <img src="image/isi/0aM7kh96VKj2IoVu7NI_VpKWrnqS8GWFTWBXHJBis5mb08BknKuJqaYSGZRj0fe7XuEUjZ8d_Q80LQhRU98pCvRW.jpg" alt="Картина" />
           </article>
           <article class="gallery-item" data-category="paintings">
-            <img src="https://images.unsplash.com/photo-1473447198193-c6c5f2f77e33?auto=format&fit=crop&w=900&q=80" alt="Картина 1" />
-            <div class="gallery-meta"><strong>Картина</strong><span>Теплые цвета</span></div>
+            <img src="image/isi/7SpSV57i9nuVtGtRomY8YOp-F-UQsHuDnqA--2VAOVvwCHtTIlLCD2kTFWlpT_9vxd_IrSTErgKSDS2Xc26YmU4j.jpg" alt="Картина" />
           </article>
           <article class="gallery-item" data-category="paintings">
-            <img src="https://images.unsplash.com/photo-1473186578172-c141e6798cf4?auto=format&fit=crop&w=900&q=80" alt="Картина 2" />
-            <div class="gallery-meta"><strong>Картина</strong><span>Атмосферный пейзаж</span></div>
+            <img src="image/isi/gNGrpFBoiuIkuZPTdioElHVFqNalwqG_3H7DjaHYvDpQyP_dwbfOEgmk56u4t1v3s6h9p0eP6JcpCPPNM_0FXgw1.jpg" alt="Картина" />
+          </article>
+
+          <article class="gallery-item" data-category="framing">
+            <img src="image/art/5yh2W-mlG5pOiYwhy_Xd__VgqGZo9X6XyY7AhuBL9wiWWc8JHUVf-0NNRCfx9UWZXzGHwNtRl3EWKXMD-P0C8ru4.jpg" alt="Оформление" />
+          </article>
+          <article class="gallery-item" data-category="framing">
+            <img src="image/art/foyHHtCMuiQ6-0QCuLcxthmsjSYv7ozCjIKG5bRl_inpZhoHRztmGm_2ouAQIgSbhn-OKjLodhtKw1ynY0QVkntH.jpg" alt="Оформление" />
+          </article>
+          <article class="gallery-item" data-category="framing">
+            <img src="image/art/IefPG_ADyTNLgwQ7nnwuIan6tiQWQ8FtnFB3J1fdccPUjfjmvNqGWIFj5Egm550VKnL_ZndtHu30TUuREruG29lO.jpg" alt="Оформление" />
+          </article>
+          <article class="gallery-item" data-category="framing">
+            <img src="image/art/KcmVGeH3rc1yvBo9r38pjhTwYKZWyFoWSIxvM0gCvbzLfqxevchxX0uVoV4LxO_1Ht3oXMorxtNDpHbI5sPITPMr.jpg" alt="Оформление" />
+          </article>
+          <article class="gallery-item" data-category="framing">
+            <img src="image/art/LpWPvxpFlwWY_HgKcQbb-QWeRYySVSiEqBg9ix3Lo8eSkiBwLYYKLdfVGSNgm6QEa33IrAN3JaxjmZYBRWWrW4x6.jpg" alt="Оформление" />
+          </article>
+          <article class="gallery-item" data-category="framing">
+            <img src="image/art/NcqlVtqE-TpDAkljBV2cEvZ86FpDBq9gzaKUDk9BSgs_FKEI5w0VyuFUdh3t6EATHKcTW91z3JYQ-CbxVPYqAxDL.jpg" alt="Оформление" />
+          </article>
+          <article class="gallery-item" data-category="framing">
+            <img src="image/art/YhSyLOThheRJApxs8EZzsT8F7dyRu0EVl0DRRe8yJk5310253zdte6oinRVYFhe9ZJnqQ6bSdB1m9Ohu3ViQlycj.jpg" alt="Оформление" />
           </article>
         </div>
       </div>
@@ -84,8 +159,12 @@
       <button class="modal-close" type="button" data-modal-close>&times;</button>
       <h3>Обо мне</h3>
       <p>
-        Я, Натали Смирнова, создаю портреты, шаржи и авторские картины более 7 лет.
-        В каждой работе соединяю индивидуальность человека, настроение момента и силу цвета.
+        Здравствуйте. Я, художник Натали Смирнова, создаю портреты, шаржи и авторские
+        картины более 9 лет. В каждой работе соединяю индивидуальность человека,
+        настроение момента и силу цвета. С особым вниманием отношусь ко всем пожеланиям
+        клиентов по поводу заказа. Оформляю заказы под ключ по желанию клиента - в рамку
+        и подарочную упаковку. Рисую с душой, любовью и вдохновением. Каждому клиенту
+        в подарок идет небольшой конверт с приятным сюрпризом.
       </p>
     </div>
   </div>
@@ -94,9 +173,13 @@
     <div class="modal-card">
       <button class="modal-close" type="button" data-modal-close>&times;</button>
       <h3>Контакты</h3>
-      <p>Email: natali.art@example.com</p>
-      <p>Телефон: +7 (999) 123-45-67</p>
-      <p>Город: Москва</p>
+      <p>
+        Вконтакте:
+        <a href="https://vk.com/id170079854" target="_blank" rel="noopener noreferrer">vk.com/id170079854</a>
+      </p>
+      <p>Gmail: natali.smirnowa.arts@gmail.com</p>
+      <p>Telegram: @NataliArt|SMM</p>
+      <p>Город: Пермь</p>
     </div>
   </div>
 
@@ -110,6 +193,31 @@
         <textarea rows="4" placeholder="Опишите ваш запрос"></textarea>
         <button class="btn primary" type="submit">Отправить заявку</button>
       </form>
+    </div>
+  </div>
+
+  <div class="modal gallery-lightbox" id="galleryLightbox" role="dialog" aria-modal="true" aria-label="Просмотр работы">
+    <button class="modal-close gallery-lightbox-close" type="button" data-modal-close aria-label="Закрыть">&times;</button>
+    <figure class="gallery-lightbox-figure">
+      <img id="galleryLightboxImg" alt="" />
+    </figure>
+  </div>
+
+  <div class="mood-artist" id="moodArtist" aria-label="Подсказки и анимированный персонаж">
+    <div class="artist-tip" id="artistTip">
+      <span class="artist-tip-text">Пусть сегодня будет день красоты, тепла и маленьких чудес!</span>
+    </div>
+    <div class="artist-photo">
+      <video
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="auto"
+        aria-label="Анимированный персонаж Акварелька"
+      >
+        <source src="video/persona.mp4" type="video/mp4" />
+      </video>
     </div>
   </div>
 
