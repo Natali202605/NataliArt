@@ -2,8 +2,8 @@
   --bg-1: #080910;
   --bg-2: #121022;
   --bg-3: #2a1f42;
-  --text: #f5f6ff;
-  --muted: #c7c9e6;
+  --text: #ffffff;
+  --muted: #e4e7ff;
   --card: rgba(255, 255, 255, 0.1);
   --accent: #ff8ad8;
   --accent-2: #8ddcff;
@@ -189,6 +189,8 @@ h1 {
   text-align: center;
   font-size: clamp(1.6rem, 3.8vw, 2.7rem);
   letter-spacing: 0.02em;
+  color: #ffffff;
+  text-shadow: 0 0 20px rgba(255, 200, 240, 0.35);
 }
 
 .subtitle {
@@ -247,6 +249,8 @@ h1 {
 .works-title {
   margin: 0;
   font-size: clamp(1.3rem, 3.2vw, 2rem);
+  color: #ffffff;
+  text-shadow: 0 0 18px rgba(180, 220, 255, 0.3);
 }
 
 .works-note {
@@ -258,6 +262,7 @@ h1 {
 .works-vk-note a {
   color: #ffffff;
   font-weight: 600;
+  text-shadow: 0 0 12px rgba(141, 220, 255, 0.5);
 }
 
 .gallery {
@@ -318,6 +323,7 @@ h1 {
 
 .modal-card h3 {
   margin-top: 0;
+  color: #ffffff;
 }
 
 .modal-card p {
@@ -393,7 +399,7 @@ h1 {
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-  color: rgba(255, 255, 255, 0.65);
+  color: rgba(255, 255, 255, 0.82);
 }
 
 .mood-artist {
