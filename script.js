@@ -3,25 +3,15 @@ const magicSparks = document.getElementById("magicSparks");
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const hasFinePointer = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
 
-const siteAudio = {
-  ctx: null,
-  musicGain: null,
-  playing: false,
-  noteTimer: null,
-  noteIndex: 0,
-  melody: [261.63, 293.66, 329.63, 392, 440, 493.88, 440, 392, 329.63, 293.66],
-};
+let audioContext = null;
 
 const getAudioContext = () => {
-  if (!siteAudio.ctx) {
+  if (!audioContext) {
     const AudioCtx = window.AudioContext || window.webkitAudioContext;
     if (!AudioCtx) return null;
-    siteAudio.ctx = new AudioCtx();
-    siteAudio.musicGain = siteAudio.ctx.createGain();
-    siteAudio.musicGain.gain.value = 0.055;
-    siteAudio.musicGain.connect(siteAudio.ctx.destination);
+    audioContext = new AudioCtx();
   }
-  return siteAudio.ctx;
+  return audioContext;
 };
 
 const ensureAudioReady = async () => {
@@ -31,70 +21,6 @@ const ensureAudioReady = async () => {
     await ctx.resume();
   }
   return true;
-};
-
-const playSoftNote = (frequency, duration = 1.15, volume = 0.28) => {
-  const ctx = getAudioContext();
-  if (!ctx || !siteAudio.musicGain) return;
-
-  const now = ctx.currentTime;
-  const voiceGain = ctx.createGain();
-  voiceGain.gain.setValueAtTime(0, now);
-  voiceGain.gain.linearRampToValueAtTime(volume, now + 0.12);
-  voiceGain.gain.exponentialRampToValueAtTime(0.001, now + duration);
-  voiceGain.connect(siteAudio.musicGain);
-
-  const tone = ctx.createOscillator();
-  tone.type = "triangle";
-  tone.frequency.setValueAtTime(frequency, now);
-  tone.connect(voiceGain);
-  tone.start(now);
-  tone.stop(now + duration + 0.05);
-
-  const shimmer = ctx.createOscillator();
-  shimmer.type = "sine";
-  shimmer.frequency.setValueAtTime(frequency * 2, now);
-  const shimmerGain = ctx.createGain();
-  shimmerGain.gain.setValueAtTime(0, now);
-  shimmerGain.gain.linearRampToValueAtTime(volume * 0.08, now + 0.1);
-  shimmerGain.gain.exponentialRampToValueAtTime(0.001, now + duration * 0.7);
-  shimmer.connect(shimmerGain);
-  shimmerGain.connect(siteAudio.musicGain);
-  shimmer.start(now);
-  shimmer.stop(now + duration);
-};
-
-const scheduleMelodyStep = () => {
-  if (!siteAudio.playing) return;
-  const note = siteAudio.melody[siteAudio.noteIndex % siteAudio.melody.length];
-  siteAudio.noteIndex += 1;
-  playSoftNote(note, 1.25, 0.26);
-};
-
-const startPersonaMusic = () => {
-  if (prefersReducedMotion) return;
-  if (siteAudio.playing) return;
-  siteAudio.playing = true;
-  scheduleMelodyStep();
-  siteAudio.noteTimer = setInterval(scheduleMelodyStep, 1050);
-};
-
-const stopPersonaMusic = () => {
-  siteAudio.playing = false;
-  if (siteAudio.noteTimer) {
-    clearInterval(siteAudio.noteTimer);
-    siteAudio.noteTimer = null;
-  }
-};
-
-const togglePersonaMusic = async () => {
-  const ready = await ensureAudioReady();
-  if (!ready) return;
-  if (siteAudio.playing) {
-    stopPersonaMusic();
-  } else {
-    startPersonaMusic();
-  }
 };
 
 const buttonChimeSets = [
@@ -112,7 +38,7 @@ const playButtonChime = () => {
 
   const now = ctx.currentTime;
   const master = ctx.createGain();
-  master.gain.value = 0.09;
+  master.gain.value = 0.17;
   master.connect(ctx.destination);
 
   const pair = buttonChimeSets[chimeVariant % buttonChimeSets.length];
@@ -122,7 +48,7 @@ const playButtonChime = () => {
     const start = now + index * 0.045;
     const noteGain = ctx.createGain();
     noteGain.gain.setValueAtTime(0, start);
-    noteGain.gain.linearRampToValueAtTime(0.14, start + 0.015);
+    noteGain.gain.linearRampToValueAtTime(0.26, start + 0.015);
     noteGain.gain.exponentialRampToValueAtTime(0.001, start + 0.22);
     noteGain.connect(master);
 
@@ -488,12 +414,11 @@ setTimeout(() => {
   startAutoTips();
 }, FIRST_TIP_DELAY_MS);
 
-moodArtist.addEventListener("click", async (event) => {
+moodArtist.addEventListener("click", (event) => {
   event.stopPropagation();
   pauseAutoTips();
   tipIndex = (tipIndex + 1) % promoPhrases.length;
   showTip(promoPhrases[tipIndex]);
-  await togglePersonaMusic();
 });
 
 const pickRandom = (items) => items[Math.floor(Math.random() * items.length)];
@@ -525,10 +450,6 @@ document.addEventListener("click", async (event) => {
   if (!button || prefersReducedMotion) return;
   const ready = await ensureAudioReady();
   if (ready) playButtonChime();
-});
-
-document.addEventListener("visibilitychange", () => {
-  if (document.hidden) stopPersonaMusic();
 });
 
 const artistVideo = document.querySelector(".artist-photo video");
