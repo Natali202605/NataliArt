@@ -1,7 +1,7 @@
 :root {
-  --bg-1: #0f1020;
-  --bg-2: #1f1d3a;
-  --bg-3: #3e2f5a;
+  --bg-1: #080910;
+  --bg-2: #121022;
+  --bg-3: #2a1f42;
   --text: #f5f6ff;
   --muted: #c7c9e6;
   --card: rgba(255, 255, 255, 0.1);
@@ -20,7 +20,7 @@ body {
   min-height: 100vh;
   font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
   color: var(--text);
-  background: linear-gradient(-45deg, var(--bg-1), var(--bg-2), var(--bg-3), #2e416e);
+  background: linear-gradient(-45deg, var(--bg-1), var(--bg-2), var(--bg-3), #1a2848);
   background-size: 400% 400%;
   animation: gradientFlow 16s ease infinite;
   display: flex;
@@ -44,7 +44,7 @@ body {
   border-radius: 50%;
   filter: blur(2px);
   mix-blend-mode: screen;
-  opacity: 0.65;
+  opacity: 0.5;
 }
 
 .orb-1 {
@@ -105,7 +105,7 @@ body::after {
   border-radius: 50%;
   z-index: 0;
   filter: blur(30px);
-  opacity: 0.35;
+  opacity: 0.26;
   animation: floatBlob 13s ease-in-out infinite;
   pointer-events: none;
 }
@@ -181,6 +181,7 @@ body::after {
   display: block;
   aspect-ratio: 3 / 4;
   object-fit: cover;
+  filter: brightness(1.1) saturate(1.35) contrast(1.06);
 }
 
 h1 {
@@ -281,6 +282,7 @@ h1 {
   object-fit: cover;
   display: block;
   cursor: zoom-in;
+  filter: brightness(1.06) saturate(1.2) contrast(1.04);
 }
 
 .gallery-item.hidden {
