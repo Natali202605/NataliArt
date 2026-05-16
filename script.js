@@ -280,7 +280,7 @@ document.addEventListener("keydown", (event) => {
 
 const contactForm = document.querySelector(".contact-form");
 
-contactForm.addEventListener("submit", (event) => {
+contactForm?.addEventListener("submit", (event) => {
   event.preventDefault();
   alert("Спасибо! Ваша заявка отправлена.");
   contactForm.reset();
@@ -380,6 +380,7 @@ const FIRST_TIP_DELAY_MS = 1800;
 const PAUSE_AFTER_MANUAL_MS = 14000;
 
 const showTip = (text) => {
+  if (!artistTip) return;
   if (artistTipText) {
     artistTipText.textContent = text;
   } else {
@@ -400,6 +401,7 @@ const pauseAutoTips = () => {
 };
 
 const startAutoTips = () => {
+  if (!artistTip) return;
   if (autoTipTimer) clearInterval(autoTipTimer);
   autoTipTimer = setInterval(() => {
     if (Date.now() < pauseAutoUntil) return;
@@ -408,13 +410,18 @@ const startAutoTips = () => {
   }, AUTO_TIP_MS);
 };
 
-setTimeout(() => {
+const initAutoTips = () => {
+  if (!artistTip) return;
   tipIndex = 0;
   showTip(promoPhrases[0]);
   startAutoTips();
-}, FIRST_TIP_DELAY_MS);
+};
 
-moodArtist.addEventListener("click", (event) => {
+if (artistTip) {
+  setTimeout(initAutoTips, FIRST_TIP_DELAY_MS);
+}
+
+moodArtist?.addEventListener("click", (event) => {
   event.stopPropagation();
   pauseAutoTips();
   tipIndex = (tipIndex + 1) % promoPhrases.length;
@@ -441,7 +448,9 @@ connectBtn?.addEventListener("click", (event) => {
   showTip(pickRandom(buttonPhrases.connect));
 });
 
-document.addEventListener("click", () => {
+document.addEventListener("click", (event) => {
+  if (!artistTip) return;
+  if (event.target.closest("#moodArtist, .btn, .modal")) return;
   artistTip.classList.remove("show");
 });
 
