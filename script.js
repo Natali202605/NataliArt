@@ -50,7 +50,7 @@ if (hasFinePointer && magicCursor && !prefersReducedMotion) {
   const moveCursor = (x, y) => {
     cursorX = x;
     cursorY = y;
-    magicCursor.style.transform = `translate(${x - 4}px, ${y - 36}px)`;
+    magicCursor.style.transform = `translate(${x - 16}px, ${y - 16}px)`;
   };
 
   document.addEventListener(

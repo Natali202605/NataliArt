@@ -8,7 +8,7 @@
   --accent: #ff8ad8;
   --accent-2: #8ddcff;
   --ring: rgba(255, 255, 255, 0.25);
-  --block-glow: 0 0 24px rgba(255, 138, 216, 0.12), 0 0 48px rgba(141, 220, 255, 0.08);
+  --block-glow: 0 0 28px rgba(255, 138, 216, 0.24), 0 0 52px rgba(141, 220, 255, 0.16), 0 0 72px rgba(176, 107, 255, 0.1);
 }
 
 * {
@@ -158,7 +158,7 @@ body::after {
 
 .hero {
   background: var(--card);
-  border: 1px solid rgba(255, 255, 255, 0.28);
+  border: 1px solid rgba(255, 180, 230, 0.38);
   border-radius: 28px;
   backdrop-filter: blur(12px);
   box-shadow: var(--block-glow), 0 20px 60px rgba(0, 0, 0, 0.35);
@@ -307,7 +307,7 @@ h1 {
   position: relative;
   width: min(520px, 100%);
   border-radius: 18px;
-  border: 1px solid rgba(255, 255, 255, 0.28);
+  border: 1px solid rgba(180, 210, 255, 0.35);
   background: linear-gradient(145deg, rgba(37, 32, 70, 0.95), rgba(32, 40, 84, 0.95));
   box-shadow: var(--block-glow), 0 20px 50px rgba(0, 0, 0, 0.4);
   padding: 22px;
@@ -546,9 +546,14 @@ h1 {
   }
 }
 
-@keyframes brushDab {
-  0%, 100% { transform: rotate(-42deg) scale(1); }
-  50% { transform: rotate(-42deg) scale(1.06); }
+@keyframes artRingSpin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes artOrbit {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-360deg); }
 }
 
 .magic-sparks {
@@ -577,74 +582,111 @@ h1 {
   left: 0;
   top: 0;
   z-index: 9999;
-  width: 0;
-  height: 0;
+  width: 32px;
+  height: 32px;
   opacity: 1;
   pointer-events: none;
   transition: opacity 0.2s ease;
   will-change: transform;
-  transform-origin: 4px 36px;
 }
 
-.magic-cursor.clicking .brush-bristles {
-  transform: rotate(-42deg) scaleY(0.88);
+.art-cursor-ring {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: conic-gradient(
+    from 0deg,
+    #ff8ad8,
+    #8ddcff,
+    #ffe0a8,
+    #c9a0ff,
+    #ff8ad8
+  );
+  filter: blur(1px);
+  opacity: 0.85;
+  animation: artRingSpin 6s linear infinite;
+  mask: radial-gradient(circle, transparent 42%, #000 46%, #000 100%);
+  -webkit-mask: radial-gradient(circle, transparent 42%, #000 46%, #000 100%);
 }
 
-.magic-cursor.clicking .brush-paint {
+.art-cursor-orbit {
+  position: absolute;
+  inset: 3px;
+  border-radius: 50%;
+  border: 1px dashed rgba(255, 255, 255, 0.35);
+  animation: artOrbit 9s linear infinite;
+}
+
+.art-cursor-palette {
+  position: absolute;
+  left: 7px;
+  top: 7px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #3d3558, #221e34 70%);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: inset 0 1px 4px rgba(255, 255, 255, 0.12);
+}
+
+.art-cursor-swatch {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 6px currentColor;
+}
+
+.swatch-pink {
+  left: 5px;
+  top: 9px;
+  background: #ff8ad8;
+  color: #ff8ad8;
+}
+
+.swatch-cyan {
+  right: 5px;
+  top: 8px;
+  background: #8ddcff;
+  color: #8ddcff;
+}
+
+.swatch-gold {
+  left: 9px;
+  bottom: 5px;
+  background: #ffe0a8;
+  color: #ffe0a8;
+}
+
+.swatch-violet {
+  right: 8px;
+  bottom: 6px;
+  background: #c9a0ff;
+  color: #c9a0ff;
+}
+
+.art-cursor-tip {
+  position: absolute;
+  left: 14px;
+  top: 14px;
+  width: 4px;
+  height: 4px;
+  margin: -2px 0 0 -2px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 0 8px #fff, 0 0 14px var(--accent), 0 0 20px var(--accent-2);
+}
+
+.magic-cursor.clicking .art-cursor-ring {
   opacity: 1;
-  transform: rotate(-42deg) scale(1.35);
+  filter: blur(0.5px);
+  transform: scale(1.12);
 }
 
-.brush-handle {
-  position: absolute;
-  left: 2px;
-  top: 10px;
-  width: 7px;
-  height: 30px;
-  border-radius: 4px;
-  background: linear-gradient(90deg, #5c3310, #a86b2d 45%, #6b3f12);
-  box-shadow: inset 1px 0 rgba(255, 255, 255, 0.2);
-  transform: rotate(-42deg);
-  transform-origin: 4px 36px;
-}
-
-.brush-ferrule {
-  position: absolute;
-  left: 0;
-  top: 2px;
-  width: 9px;
-  height: 10px;
-  border-radius: 2px;
-  background: linear-gradient(180deg, #e8ecf0, #9aa3ad 55%, #6d757d);
-  transform: rotate(-42deg);
-  transform-origin: 4px 36px;
-}
-
-.brush-bristles {
-  position: absolute;
-  left: -3px;
-  top: -10px;
-  width: 14px;
-  height: 16px;
-  border-radius: 40% 40% 20% 60%;
-  background: linear-gradient(160deg, #f5e6c8 0%, #e8c98a 55%, #d4a85c 100%);
-  transform: rotate(-42deg);
-  transform-origin: 4px 36px;
-  transition: transform 0.12s ease;
-}
-
-.brush-paint {
-  position: absolute;
-  left: 1px;
-  top: -14px;
-  width: 8px;
-  height: 8px;
-  border-radius: 50% 50% 40% 60%;
-  background: radial-gradient(circle at 30% 30%, #ff9de0, var(--accent) 55%, #c44fa8);
-  opacity: 0.92;
-  transform: rotate(-42deg);
-  transform-origin: 4px 36px;
-  transition: transform 0.12s ease, opacity 0.12s ease;
+.magic-cursor.clicking .art-cursor-tip {
+  transform: scale(1.4);
+  box-shadow: 0 0 10px #fff, 0 0 18px var(--accent), 0 0 26px var(--accent-2);
 }
 
 @media (hover: hover) and (pointer: fine) {
@@ -661,6 +703,11 @@ h1 {
 
 @media (prefers-reduced-motion: reduce) {
   .photo-wrap {
+    animation: none;
+  }
+
+  .art-cursor-ring,
+  .art-cursor-orbit {
     animation: none;
   }
 }
