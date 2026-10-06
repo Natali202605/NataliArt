@@ -1,0 +1,1781 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Студия красоты «Май» в Перми — бережный эстетический уход. Брови, ресницы, косметология, депиляция. Первая консультация БЕЗплатно.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="googlebot" content="index, follow">
+  <meta name="geo.region" content="RU-PER">
+  <meta name="geo.placename" content="Пермь">
+  <meta name="geo.position" content="58.003946;55.941012">
+  <meta name="ICBM" content="58.003946, 55.941012">
+  <meta property="og:title" content="Студия красоты «Май» — Красота, в которой комфортно оставаться собой">
+  <meta property="og:description" content="Студия красоты «Май» в Перми — бережный эстетический уход. Брови, ресницы, косметология, депиляция. Первая консультация БЕЗплатно.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://natali202605.github.io/StudiaMai/">
+  <meta property="og:site_name" content="Студия красоты «Май»">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:image" content="https://natali202605.github.io/StudiaMai/images/logo.png">
+  <meta property="og:image:alt" content="Логотип студии красоты «Май» в Перми">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Студия красоты «Май» — Красота, в которой комфортно оставаться собой">
+  <meta name="twitter:description" content="Студия красоты «Май» в Перми — бережный эстетический уход. Брови, ресницы, косметология, депиляция. Первая консультация БЕЗплатно.">
+  <meta name="twitter:image" content="https://natali202605.github.io/StudiaMai/images/logo.png">
+  <meta name="twitter:image:alt" content="Логотип студии красоты «Май» в Перми">
+  <meta name="theme-color" content="#00D4A8">
+  <link rel="canonical" href="https://natali202605.github.io/StudiaMai/">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="https://natali202605.github.io/StudiaMai/sitemap.xml">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["BeautySalon", "LocalBusiness"],
+        "@id": "https://natali202605.github.io/StudiaMai/#business",
+        "name": "Студия красоты «Май»",
+        "alternateName": "Студия Май",
+        "description": "Студия красоты «Май» в Перми — бережный эстетический уход. Брови, ресницы, косметология, депиляция. Первая консультация БЕЗплатно.",
+        "url": "https://natali202605.github.io/StudiaMai/",
+        "image": "https://natali202605.github.io/StudiaMai/images/logo.png",
+        "logo": "https://natali202605.github.io/StudiaMai/images/logo.png",
+        "telephone": "+79024737800",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "ул. Ласьвинская, 32",
+          "addressLocality": "Пермь",
+          "addressRegion": "Пермский край",
+          "postalCode": "614101",
+          "addressCountry": "RU"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 58.003946,
+          "longitude": 55.941012
+        },
+        "hasMap": "https://yandex.ru/maps/?ll=55.941012%2C58.003946&z=17&pt=55.941012%2C58.003946%2Cpm2rdm",
+        "areaServed": {
+          "@type": "City",
+          "name": "Пермь"
+        },
+        "openingHoursSpecification": [
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "11:00", "closes": "20:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "opens": "10:00", "closes": "20:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Wednesday", "opens": "12:00", "closes": "20:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "12:00", "closes": "20:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "15:00", "closes": "20:00" }
+        ],
+        "sameAs": [
+          "https://vk.ru/brow_studia_may",
+          "https://mst.link/bolotova_galina"
+        ],
+        "employee": {
+          "@type": "Person",
+          "name": "Галина Болотова",
+          "jobTitle": "Броволог, Brow-мастер, ламинирование ресниц, депиляция, трихология"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "reviewCount": "49",
+          "bestRating": "5",
+          "worstRating": "1"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://natali202605.github.io/StudiaMai/#website",
+        "url": "https://natali202605.github.io/StudiaMai/",
+        "name": "Студия красоты «Май»",
+        "description": "Студия красоты «Май» в Перми — бережный эстетический уход. Брови, ресницы, косметология, депиляция.",
+        "inLanguage": "ru-RU",
+        "publisher": { "@id": "https://natali202605.github.io/StudiaMai/#business" }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://natali202605.github.io/StudiaMai/#webpage",
+        "url": "https://natali202605.github.io/StudiaMai/",
+        "name": "Студия красоты «Май» — Красота, в которой комфортно оставаться собой",
+        "description": "Студия красоты «Май» в Перми — бережный эстетический уход. Брови, ресницы, косметология, депиляция. Первая консультация БЕЗплатно.",
+        "isPartOf": { "@id": "https://natali202605.github.io/StudiaMai/#website" },
+        "about": { "@id": "https://natali202605.github.io/StudiaMai/#business" },
+        "inLanguage": "ru-RU"
+      }
+    ]
+  }
+  </script>
+  <link rel="icon" href="images/logo.png" type="image/png">
+  <title>Студия красоты «Май» — Красота, в которой комфортно оставаться собой</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" href="images/bg-section-soft.jpg">
+  <link rel="preload" as="image" href="images/hero-studio.png">
+  <link rel="preload" as="image" href="images/logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=sync18">
+</head>
+<body>
+
+  <!-- Шапка -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#hero" class="logo">
+        <img src="images/logo.png" alt="Студия красоты Май" class="logo__img" data-cms-img="logo">
+        <span class="logo__text">
+          <span class="logo__mark">
+            <span class="brand-title-wrap brand-title-wrap--header">
+              <span class="brand-title-composite">
+                <img src="images/brand-title-composed.png?v=shadow3" alt="Студия Май" class="brand-title-img brand-title-img--header" data-cms-img="brand_title" width="2799" height="794" decoding="auto" loading="eager">
+              </span>
+            </span>
+          </span>
+          <span class="logo__sub" data-cms="brand_city">Пермь</span>
+        </span>
+      </a>
+      <nav class="nav" id="siteNav" aria-label="Основное меню">
+        <a href="#about" class="nav__link" data-cms="nav_about">О нас</a>
+        <a href="#consultation" class="nav__link" data-cms="nav_consultation">Консультация</a>
+        <a href="#services" class="nav__link" data-cms="nav_services">Услуги</a>
+        <a href="#reviews" class="nav__link" data-cms="nav_reviews">Отзывы</a>
+        <a href="#contacts" class="nav__link" data-cms="nav_contacts">Контакты</a>
+        <a href="admin/" class="nav__link nav__link--staff" data-cms="nav_staff">Вход для сотрудников</a>
+        <div class="nav__actions">
+          <a href="https://vk.ru/away.php?to=https%3A%2F%2Fmst.link%2Fbolotova_galina&utf=1" target="_blank" rel="noopener" class="btn btn--primary btn--small nav__cta" data-cms-booking data-cms-cta="book">Записаться</a>
+        </div>
+      </nav>
+      <div class="header__actions">
+        <a href="admin/" class="btn btn--ghost btn--small header__admin" data-cms="nav_staff">Вход для сотрудников</a>
+        <a href="https://vk.ru/away.php?to=https%3A%2F%2Fmst.link%2Fbolotova_galina&utf=1" target="_blank" rel="noopener" class="btn btn--small header__cta" data-cms-booking data-cms-cta="book">Записаться</a>
+      </div>
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="siteNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <button type="button" class="nav-backdrop" id="navBackdrop" aria-hidden="true" tabindex="-1" hidden></button>
+  </header>
+
+  <!-- Первый экран -->
+  <section class="hero" id="hero">
+    <div class="hero__bg" aria-hidden="true">
+      <div class="hero__accent hero__accent--mint"></div>
+      <div class="hero__accent hero__accent--beige"></div>
+    </div>
+    <div class="container">
+      <div class="hero__top reveal">
+        <img src="images/logo.png" alt="Логотип студии красоты Май" class="hero__brand-logo" data-cms-img="hero_logo">
+        <div class="hero__brand-content">
+          <p class="hero__site-name">
+            <span class="brand-title-wrap brand-title-wrap--hero">
+              <span class="brand-title-composite">
+                <img src="images/brand-title-composed.png?v=shadow3" alt="Студия Май" class="brand-title-img brand-title-img--hero" data-cms-img="brand_title" width="2799" height="794" decoding="auto" loading="eager">
+              </span>
+            </span>
+          </p>
+          <h1 class="hero__title hero__title--slogan">Красота, в которой <span class="accent">комфортно</span> оставаться <span class="accent">собой</span></h1>
+          <div class="hero__top-actions">
+            <a href="https://vk.ru/away.php?to=https%3A%2F%2Fmst.link%2Fbolotova_galina&utf=1" target="_blank" rel="noopener" class="btn btn--primary btn--hero btn--glow" data-cms-booking data-cms-cta="book">Записаться</a>
+            <a href="#consultation" class="btn btn--ghost" data-cms-cta="consult">БЕЗплатная консультация</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero__body reveal reveal--delay">
+        <div class="hero__body-grid">
+          <div class="hero__body-content">
+            <p class="hero__text" data-cms="hero_text">
+              Брови, ресницы, уход за лицом, депиляция и эстетические процедуры, которые помогают чувствовать себя ухоженно каждый день.
+            </p>
+            <p class="hero__subtext" data-cms="hero_subtext">
+              Мы не стремимся менять вас до неузнаваемости. Наша задача — подчеркнуть естественную красоту, сохранить гармонию и подобрать уход, который действительно подходит именно вам.
+            </p>
+            <div class="hero__stats">
+              <div class="hero__stat">
+                <span class="hero__stat-value">5</span>
+                <span class="hero__stat-label">рейтинг клиентов</span>
+              </div>
+              <div class="hero__stat-divider"></div>
+              <div class="hero__stat">
+                <span class="hero__stat-value" data-reviews-count>29</span>
+                <span class="hero__stat-label">отзывов клиентов</span>
+              </div>
+            </div>
+            <div class="hero__actions">
+              <a href="https://vk.ru/away.php?to=https%3A%2F%2Fmst.link%2Fbolotova_galina&utf=1" target="_blank" rel="noopener" class="btn btn--primary btn--hero btn--glow" data-cms-booking data-cms-cta="book_consult">
+                <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="3"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+                Записаться на консультацию
+              </a>
+              <a href="#services" class="btn btn--ghost" data-cms-cta="services">Смотреть услуги</a>
+            </div>
+          </div>
+          <div class="hero__body-media">
+            <img src="images/hero-studio.png" alt="Рабочее место студии красоты «Май»" class="hero__body-photo" data-cms-img="hero_studio" width="800" height="600" decoding="auto" loading="eager" fetchpriority="high">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Что можно решить -->
+  <section class="section section--alt" id="about">
+    <div class="container reveal">
+      <div class="section-row">
+        <div class="section-row__head">
+          <p class="section__eyebrow section__eyebrow--left">О студии</p>
+          <h2 class="section__title section__title--left">Что можно <span class="accent">решить</span> в «Май»</h2>
+        </div>
+        <div class="section-row__body">
+      <ul class="checklist">
+        <li>Восстановить форму перещипанных бровей</li>
+        <li>Сделать взгляд более открытым и выразительным</li>
+        <li>Подобрать уход за кожей лица</li>
+        <li>Улучшить качество кожи без агрессивных процедур</li>
+        <li>Избавиться от нежелательных волос комфортным способом</li>
+        <li>Получить понятный план ухода без лишних назначений</li>
+      </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Для кого -->
+  <section class="section">
+    <div class="container reveal">
+      <div class="section-row">
+        <div class="section-row__head">
+          <p class="section__eyebrow section__eyebrow--left">Аудитория</p>
+          <h2 class="section__title section__title--left">Для кого <span class="accent">наша студия</span></h2>
+          <p class="section__lead section__lead--left">Для тех, кто:</p>
+        </div>
+        <div class="section-row__body">
+      <ul class="audience-list">
+        <li>хочет выглядеть ухоженно естественно</li>
+        <li>ценит аккуратную работу и внимание к деталям</li>
+        <li>устал от случайных рекомендаций из интернета</li>
+        <li>ищет мастера, которому можно доверить свою внешность</li>
+        <li>предпочитает спокойный и профессиональный подход без давления</li>
+      </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Первая встреча -->
+  <section class="section section--accent" id="consultation">
+    <div class="container reveal">
+      <p class="section__eyebrow section__eyebrow--light">Консультация</p>
+      <h2 class="section__title section__title--light">Как проходит <span class="accent accent--light">первая встреча</span></h2>
+      <div class="consultation-block">
+        <p class="consultation-block__quote">
+          Многие клиенты приходят с вопросом: <em>«Я не понимаю, какая процедура мне нужна».</em> Это нормально. Поэтому мы начинаем не с услуги, а с консультации.
+        </p>
+        <div class="consultation-block__grid">
+          <div class="consultation-block__steps">
+            <h3>На консультации мы:</h3>
+            <ul>
+              <li>обсуждаем ваш запрос</li>
+              <li>оцениваем состояние кожи, бровей или ресниц</li>
+              <li>объясняем возможные варианты ухода</li>
+              <li>отвечаем на вопросы</li>
+              <li>подбираем процедуру только при необходимости</li>
+            </ul>
+          </div>
+          <div class="consultation-block__free">
+            <a href="https://vk.ru/away.php?to=https%3A%2F%2Fmst.link%2Fbolotova_galina&utf=1" target="_blank" rel="noopener" class="free-card" data-cms-booking>
+              <span class="free-card__label">БЕЗплатно</span>
+              <p>Консультация косметолога</p>
+            </a>
+            <a href="https://vk.ru/away.php?to=https%3A%2F%2Fmst.link%2Fbolotova_galina&utf=1" target="_blank" rel="noopener" class="free-card" data-cms-booking>
+              <span class="free-card__label">БЕЗплатно</span>
+              <p>Консультация по восстановлению бровей</p>
+            </a>
+            <a href="https://vk.ru/away.php?to=https%3A%2F%2Fmst.link%2Fbolotova_galina&utf=1" target="_blank" rel="noopener" class="btn btn--light" data-cms-booking data-cms-cta="recommendations">Получить рекомендации</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- О мастере -->
+  <section class="section">
+    <div class="container master reveal">
+      <div class="master__row">
+        <div class="master__portrait-wrap">
+          <img src="images/galina-portret.png" alt="Галина Болотова — Броволог, мастер восстановления бровей" class="master__portrait" data-cms-img="master_portrait" decoding="auto" loading="eager">
+        </div>
+        <div class="master__info">
+          <p class="section__eyebrow section__eyebrow--left">Мастер</p>
+          <h2 class="section__title section__title--left master__title">Галина <span class="accent">Болотова</span></h2>
+          <p class="master__role" data-cms="master_role">Специалист с медицинским образованием, броволог, Brow-мастер, ламинирование ресниц, депиляция, трихология</p>
+          <p class="master__text" data-cms="master_p1">Работа Галины строится на внимательности и уважении к индивидуальности каждого клиента.</p>
+          <p class="master__text" data-cms="master_p2">Особое направление — восстановление бровей после многолетнего выщипывания, работа со сложным ростом волосков, подбор формы без шаблонов и трендов «для всех».</p>
+          <p class="master__text" data-cms="master_p3">Галина Болотова — трихолог-эстетист с медицинским образованием. Флагманским направлением нашей работы является <span class="master__flagship">Трихология</span>.</p>
+          <p class="master__highlight" data-cms="master_highlight">В работе важно не просто выполнить процедуру, а помочь человеку почувствовать уверенность в своем отражении.</p>
+        </div>
+      </div>
+      <div class="master__credentials">
+        <img src="images/galina-bolotova.png" alt="Галина Болотова — визитная карточка BROVOLOG" data-cms-img="master_card" decoding="auto" loading="eager">
+        <img src="images/sertifikaty.png" alt="Профессиональные сертификаты Галины Болотовой" class="master__certificates" data-cms-img="master_certificates" decoding="auto" loading="eager">
+      </div>
+    </div>
+  </section>
+
+  <!-- Наш подход -->
+  <section class="section section--alt">
+    <div class="container reveal">
+      <div class="section-row">
+        <div class="section-row__head">
+          <p class="section__eyebrow section__eyebrow--left">Философия</p>
+          <h2 class="section__title section__title--left"><span class="accent">Наш</span> подход</h2>
+          <p class="section__subtitle section__subtitle--left">Никаких <span class="accent">универсальных</span> решений</p>
+          <p class="section__lead section__lead--left">Каждый человек приходит со своей историей. Поэтому вместо стандартных схем решение подбирается персонально.</p>
+        </div>
+        <div class="section-row__body">
+          <div class="approach-card">
+            <h3 class="approach-card__title">Имеет значение <span class="accent">всё</span>:</h3>
+            <div class="approach-grid">
+              <div class="approach-item"><span class="accent">особенности</span> лица</div>
+              <div class="approach-item"><span class="accent">состояние</span> кожи</div>
+              <div class="approach-item"><span class="accent">направление</span> роста волосков</div>
+              <div class="approach-item"><span class="accent">образ</span> жизни</div>
+              <div class="approach-item"><span class="accent">пожелания</span> клиента</div>
+            </div>
+          </div>
+          <div class="approach-principles">
+            <p class="approach-principles__title">Мы всегда <span class="accent">объясняем</span>, что <span class="accent">делаем</span> и <span class="accent">зачем</span>.</p>
+            <ul>
+              <li>Без сложных <span class="accent">терминов</span></li>
+              <li>Без навязанных <span class="accent">процедур</span></li>
+              <li>Без <span class="accent">спешки</span></li>
+            </ul>
+      </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Услуги — 4 карточки -->
+  <section class="section" id="services">
+    <div class="container reveal">
+      <div class="section-header">
+        <p class="section__eyebrow">Направления</p>
+        <h2 class="section__title"><span class="accent">Услуги</span></h2>
+        <p class="section__lead">Выберите направление — нажмите «Подробнее» у услуги для полного описания</p>
+      </div>
+
+      <div class="services-grid">
+
+        <!-- Брови / услуги Броволога -->
+        <div class="service-card">
+          <div class="service-card__media">
+            <img src="images/browi-resnitsy.jpg?v=lite1" alt="Ухоженные брови и ресницы — результат работы мастера" class="service-card__image" data-cms-img="service_brows" decoding="auto" loading="eager">
+          </div>
+          <div class="service-card__body">
+          <div class="service-card__header">
+            <span class="service-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3c-4 2-7 6-7 10a7 7 0 0 0 14 0c0-4-3-8-7-10z"/><circle cx="12" cy="13" r="2.5"/></svg></span>
+            <h3 class="service-card__title" data-service-title="brows">Брови / <span class="accent">услуги Броволога</span></h3>
+          </div>
+          <p class="service-card__desc" data-service-desc="brows" hidden></p>
+          <div class="service-card__prices">
+            <ul class="price-list" data-service-prices="brows">
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">SMART-коррекция бровей</span><span class="price-item__price">1 500 ₽</span></div>
+                <span class="price-item__time">1 час</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Включает в себя работу внутри полотна брови, смену направления роста волосков, прореживание, восстановление, отращивание перещипанных бровей. Коррекция: пинцет / воск.</p></details>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Мужская коррекция бровей</span><span class="price-item__price">1 500 ₽</span></div>
+                <span class="price-item__time">1 час</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Коррекция формы бровей для мужчин с учётом естественной густоты и линии роста волосков.</p></details>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Подростковая коррекция бровей (14–18 лет)</span><span class="price-item__price">1 500 ₽</span></div>
+                <span class="price-item__time">1 час</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Бережная коррекция бровей для подростков с подбором естественной формы.</p></details>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Окрашивание бровей краской</span><span class="price-item__price">500 ₽</span></div>
+                <span class="price-item__time">30 мин</span>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Окрашивание ресниц краской</span><span class="price-item__price">500 ₽</span></div>
+                <span class="price-item__time">30 мин</span>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Моделирование и SMART-коррекция бровей</span><span class="price-item__price">2 000 ₽</span></div>
+                <span class="price-item__time">1 час 30 мин</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Моделирование формы и восстановление структуры бровей после длительного выщипывания.</p></details>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Ламинирование ресниц</span><span class="price-item__price">1 700 ₽</span></div>
+                <span class="price-item__time">1 час 30 мин</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Фиксация изгиба ресниц для выразительного и ухоженного взгляда.</p></details>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Снятие нарощенных ресниц</span><span class="price-item__price">300 ₽</span></div>
+                <span class="price-item__time">30 мин</span>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Консультация по восстановлению бровей</span><span class="price-item__price price-free">0 ₽</span></div>
+                <span class="price-item__time">30 мин</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Оценка состояния бровей, обсуждение запроса и рекомендации по восстановлению.</p></details>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">КОМБО «Брови + Ресницы»</span><span class="price-item__price">3 200 ₽</span></div>
+                <span class="price-item__time">2 часа 30 мин</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Комплексная процедура для бровей и ресниц в одном визите.</p></details>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </div>
+
+        <!-- Косметологические процедуры -->
+        <div class="service-card">
+          <div class="service-card__media">
+            <img src="images/procedury.jpg" alt="Косметические средства для ухода — студия красоты Май" class="service-card__image" data-cms-img="service_cosmetology" decoding="auto" loading="eager">
+          </div>
+          <div class="service-card__body">
+          <div class="service-card__header">
+            <span class="service-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22V12M12 12C12 7 7 4 4 4c0 4 3 8 8 8M12 12c0-5 5-8 8-8 0 4-3 8-8 8"/></svg></span>
+            <h3 class="service-card__title" data-service-title="cosmetology"><span class="accent">Косметологические</span> процедуры</h3>
+          </div>
+          <p class="service-card__desc" data-service-desc="cosmetology" hidden></p>
+          <div class="service-card__prices">
+            <ul class="price-list" data-service-prices="cosmetology">
+              <li class="price-list__subtitle">Уход / маски</li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Уходовые процедуры для лица</span><span class="price-item__price">от 1 000 ₽ до 2 000 ₽</span></div>
+                <span class="price-item__time">индивидуально</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Подбор уходовой процедуры по типу и состоянию кожи лица.</p></details>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Маска для лица гипсовая</span><span class="price-item__price">2 000 ₽</span></div>
+                <span class="price-item__time">по записи</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Интенсивная уходовая процедура с гипсовой маской для лица.</p></details>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Маска для лица — гипсовая + альгинатная</span><span class="price-item__price">1 500 ₽</span></div>
+                <span class="price-item__time">по записи</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Комбинированная маска для лифтинг-эффекта и дополнительного увлажнения.</p></details>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Маска для лица альгинатная</span><span class="price-item__price">500 ₽</span></div>
+                <span class="price-item__time">дополнительная услуга при массаже лица</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Альгинатная маска как дополнительная процедура при массаже лица.</p></details>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Консультация по подбору уходовой косметики «Разбор косметички»</span><span class="price-item__price">1 500 ₽</span></div>
+                <span class="price-item__time">по записи</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Разбор текущего домашнего ухода и рекомендации по косметике под ваш запрос.</p></details>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Консультация косметолога</span><span class="price-item__price price-free">0 ₽</span></div>
+                <span class="price-item__time">на первом приёме</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Первичная консультация с оценкой состояния кожи и рекомендациями по уходу.</p></details>
+              </li>
+              <li class="price-list__subtitle">Пилинги / мезотерапия / биоревитализация</li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Химический пилинг лица</span><span class="price-item__price">от 1 500 ₽</span></div>
+                <span class="price-item__time">по записи</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Обновление кожи и выравнивание тона с помощью пилинга.</p></details>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Жёлтый ретиноловый пилинг</span><span class="price-item__price">от 2 500 ₽</span></div>
+                <span class="price-item__time">по записи</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Интенсивное обновление кожи ретиноловым пилингом.</p></details>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Карбокситерапия лица</span><span class="price-item__price">от 1 500 ₽</span></div>
+                <span class="price-item__time">по записи</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Кислородный уход для улучшения цвета лица и тонуса кожи.</p></details>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Фракционная мезотерапия лица (аппаратом Дермапен)</span><span class="price-item__price">от 2 500 ₽</span></div>
+                <span class="price-item__time">по записи</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Аппаратная процедура для стимуляции обновления кожи лица.</p></details>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Фракционная мезотерапия волосистой части головы (аппаратом Дермапен)</span><span class="price-item__price">3 000 ₽</span></div>
+                <span class="price-item__time">по записи</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Аппаратная процедура для кожи головы и улучшения состояния волос.</p></details>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Мезотерапия лица и тела</span><span class="price-item__price">стоимость по запросу</span></div>
+                <span class="price-item__time">индивидуально</span>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Мезотерапия волосистой части головы</span><span class="price-item__price">стоимость по запросу</span></div>
+                <span class="price-item__time">индивидуально</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Процедура подбирается персонально после консультации специалиста.</p></details>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Биоревитализация лица и тела</span><span class="price-item__price">стоимость по запросу</span></div>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </div>
+
+        <!-- Массажи лица -->
+        <div class="service-card">
+          <div class="service-card__media">
+            <img src="images/massazh.jpg?v=lite1" alt="Профессиональный массаж лица" class="service-card__image" data-cms-img="service_massage" decoding="auto" loading="eager">
+          </div>
+          <div class="service-card__body">
+          <div class="service-card__header">
+            <span class="service-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l1.5 5.5L19 10l-5.5 1.5L12 17l-1.5-5.5L5 10l5.5-1.5L12 3z"/></svg></span>
+            <h3 class="service-card__title" data-service-title="massage">Массажи <span class="accent">лица</span></h3>
+          </div>
+          <p class="service-card__desc" data-service-desc="massage" hidden></p>
+          <div class="service-card__prices">
+            <ul class="price-list" data-service-prices="massage">
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Классический массаж лица</span><span class="price-item__price">1 000 ₽</span></div>
+                <span class="price-item__time">1 час</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Классический массаж лица для расслабления и улучшения тонуса кожи.</p></details>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Скульптурный массаж лица</span><span class="price-item__price">1 500 ₽</span></div>
+                <span class="price-item__time">1 час 30 мин</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Моделирование овала лица скульптурными техниками.</p></details>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Пластический массаж лица</span><span class="price-item__price">1 500 ₽</span></div>
+                <span class="price-item__time">1 час 30 мин</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Интенсивный массаж для подтяжки и тонуса кожи.</p></details>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Скульптурно-буккальный массаж лица</span><span class="price-item__price">1 800 ₽</span></div>
+                <span class="price-item__time">2 часа</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Комплексный скульптурно-буккальный массаж лица.</p></details>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Миофасциальный лифтинг-массаж лица, шеи, декольте</span><span class="price-item__price">2 500 ₽</span></div>
+                <span class="price-item__time">2 часа</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Миофасциальный лифтинг-массаж лица, шеи и зоны декольте.</p></details>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </div>
+
+        <!-- Восстановление и уход за волосами / Услуги Трихолога -->
+        <div class="service-card">
+          <div class="service-card__media">
+            <img src="images/volosy.jpg?v=lite1" alt="Восстановление и уход за волосами — студия красоты Май" class="service-card__image" data-cms-img="service_trichology" decoding="auto" loading="eager">
+          </div>
+          <div class="service-card__body">
+          <div class="service-card__header">
+            <span class="service-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 20c0-5 2-9 5-11 3 2 5 6 5 11"/><path d="M12 20c0-5 2-9 5-11"/><path d="M17 20c0-4 1-7 3-9"/></svg></span>
+            <h3 class="service-card__title" data-service-title="trichology">Восстановление и уход за волосами / <span class="accent">Услуги Трихолога</span></h3>
+          </div>
+          <div class="service-card__desc service-card__desc--points" data-service-desc="trichology">
+            <p class="service-card__desc-lead">Наша зона компетенции:</p>
+            <ul class="service-card__points">
+              <li>Консультация с проведением Трихоскопии</li>
+              <li>Подбор шампуней, кондиционеров, масок, тоников, сывороток под тип кожи головы</li>
+              <li>Косметические лосьоны для роста волос</li>
+              <li>Пилинги, масла, термозащита</li>
+              <li>Проведение массажа, косметических процедур для улучшения состояния волос и кожи головы</li>
+            </ul>
+          </div>
+          <div class="service-card__prices">
+            <ul class="price-list" data-service-prices="trichology">
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Консультация трихолога-эстетиста</span><span class="price-item__price">2 000 ₽</span></div>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Фракционная мезотерапия волосистой части головы (микронидлинг) аппаратом Дермапен</span><span class="price-item__price">3 000 ₽</span></div>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Мезотерапия волосистой части головы и тела</span><span class="price-item__price">стоимость по запросу</span></div>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Массаж волосистой части головы</span><span class="price-item__price">1 000 ₽</span></div>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Профессиональный пилинг кожи головы</span><span class="price-item__price">1 500 ₽</span></div>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </div>
+
+        <!-- Женская депиляция -->
+        <div class="service-card">
+          <div class="service-card__media">
+            <img src="images/nogi.jpg?v=lite1" alt="Женская депиляция — ухоженная кожа" class="service-card__image" data-cms-img="service_depilation" decoding="auto" loading="eager">
+          </div>
+          <div class="service-card__body">
+          <div class="service-card__header">
+            <span class="service-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21s-7-4.5-9-9a5.5 5.5 0 0 1 9-4 5.5 5.5 0 0 1 9 4c-2 4.5-9 9-9 9z"/></svg></span>
+            <h3 class="service-card__title" data-service-title="depilation"><span class="accent">Женская</span> депиляция</h3>
+          </div>
+          <p class="service-card__desc" data-service-desc="depilation">Комфортное удаление нежелательных волос с учётом чувствительности кожи.</p>
+          <div class="service-card__prices">
+            <ul class="price-list" data-service-prices="depilation">
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Область над верхней губой</span><span class="price-item__price">300 ₽</span></div>
+                <span class="price-item__time">15 мин</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Депиляция зоны над верхней губой.</p></details>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Подбородок</span><span class="price-item__price">300 ₽</span></div>
+                <span class="price-item__time">15 мин</span>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Виски</span><span class="price-item__price">300 ₽</span></div>
+                <span class="price-item__time">15 мин</span>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Подмышечные впадины</span><span class="price-item__price">500 ₽</span></div>
+                <span class="price-item__time">30 мин</span>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Руки до локтя</span><span class="price-item__price">600 ₽</span></div>
+                <span class="price-item__time">30 мин</span>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Руки полностью</span><span class="price-item__price">1 000 ₽</span></div>
+                <span class="price-item__time">1 час</span>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Ноги до колена</span><span class="price-item__price">700 ₽</span></div>
+                <span class="price-item__time">30 мин</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Депиляция голеней до уровня колена.</p></details>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Ноги полностью</span><span class="price-item__price">1 200 ₽</span></div>
+                <span class="price-item__time">1 час</span>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Бикини классическое</span><span class="price-item__price">800 ₽</span></div>
+                <span class="price-item__time">30 мин</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Классическое бикини с учётом чувствительности кожи.</p></details>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Бикини глубокое</span><span class="price-item__price">1 400 ₽</span></div>
+                <span class="price-item__time">1 час</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Глубокое бикини с бережным подходом к коже.</p></details>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Ягодицы</span><span class="price-item__price">700 ₽</span></div>
+                <span class="price-item__time">30 мин</span>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Живот</span><span class="price-item__price">700 ₽</span></div>
+                <span class="price-item__time">30 мин</span>
+              </li>
+              <li class="price-list__subtitle">Комплексы</li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">MINI</span><span class="price-item__price">1 600 ₽</span></div>
+                <span class="price-item__time">Подмышечные впадины + глубокое бикини</span>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">MIDI</span><span class="price-item__price">2 300 ₽</span></div>
+                <span class="price-item__time">Подмышечные впадины + глубокое бикини + голени</span>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">MAXI</span><span class="price-item__price">2 700 ₽</span></div>
+                <span class="price-item__time">Подмышечные впадины + глубокое бикини + ноги полностью</span>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Ритуалы ухода и обертывание -->
+      <div class="rituals">
+        <div class="rituals__media">
+          <img src="images/ruki.jpg?v=lite1" alt="Ритуалы ухода и обертывание — уход за руками" class="rituals__image service-card__image" data-cms-img="service_rituals" decoding="auto" loading="eager">
+        </div>
+        <div class="rituals__body">
+          <h3 class="rituals__title" data-service-title="rituals">Ритуалы <span class="accent">ухода</span> и обертывание</h3>
+          <p class="service-card__desc" data-service-desc="rituals" hidden></p>
+          <div class="rituals__prices">
+            <ul class="price-list" data-service-prices="rituals">
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Парафиновая ванночка кистей рук «Бархатные ручки»</span><span class="price-item__price">1 000 ₽</span></div>
+                <span class="price-item__time">1 час</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Парафиновая ванночка для кистей рук «Бархатные ручки».</p></details>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Французский моделирующий массаж рук</span><span class="price-item__price">1 000 ₽</span></div>
+                <span class="price-item__time">1 час</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Французский моделирующий массаж рук.</p></details>
+              </li>
+              <li class="price-item">
+                <div class="price-item__row"><span class="price-item__name">Антицеллюлитное обертывание</span><span class="price-item__price">1 500 ₽</span></div>
+                <span class="price-item__time">1 час</span>
+                <details class="price-item__details"><summary>Подробнее</summary><p>Антицеллюлитное обертывание тела.</p></details>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Что вы получите -->
+  <section class="section section--alt" id="benefits">
+    <div class="container reveal">
+      <div class="section-row section-row--benefits">
+        <div class="section-row__head">
+          <p class="section__eyebrow section__eyebrow--left">Результат</p>
+          <h2 class="section__title section__title--left">Что вы <span class="accent">получите</span></h2>
+          <p class="section__lead section__lead--left">После процедур клиенты чаще всего отмечают:</p>
+        </div>
+        <div class="section-row__body">
+      <ul class="benefits-list">
+        <li class="benefit-card"><span class="benefit-card__num">01</span><span class="benefit-card__text">более ухоженный внешний вид</span></li>
+        <li class="benefit-card"><span class="benefit-card__num">02</span><span class="benefit-card__text">ощущение свежести и легкости</span></li>
+        <li class="benefit-card"><span class="benefit-card__num">03</span><span class="benefit-card__text">понятную систему домашнего ухода</span></li>
+        <li class="benefit-card"><span class="benefit-card__num">04</span><span class="benefit-card__text">уверенность в своём отражении</span></li>
+        <li class="benefit-card benefit-card--featured"><span class="benefit-card__num">05</span><span class="benefit-card__text">спокойствие от того, что рядом есть специалист, которому можно доверять</span></li>
+      </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Частые сомнения -->
+  <section class="section" id="faq">
+    <div class="container reveal">
+      <div class="section-row">
+        <div class="section-row__head">
+          <p class="section__eyebrow section__eyebrow--left">Вопросы</p>
+          <h2 class="section__title section__title--left"><span class="accent">Частые</span> сомнения</h2>
+        </div>
+        <div class="section-row__body">
+      <div class="faq-grid">
+        <div class="faq-item">
+          <h3>Боюсь, что мне начнут навязывать процедуры</h3>
+          <p>Мы предлагаем только то, что действительно может быть полезно именно в вашем случае.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Не знаю, с чего начать</h3>
+          <p>Для этого существует консультация.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Боюсь, что результат будет слишком заметным</h3>
+          <p>Мы работаем в эстетике естественной красоты и учитываем ваши пожелания.</p>
+        </div>
+        <div class="faq-item">
+          <h3>У меня был неудачный опыт</h3>
+          <p>Именно поэтому мы подробно обсуждаем ожидания до начала работы.</p>
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Отзывы -->
+  <section class="section section--alt" id="reviews">
+    <div class="container reveal is-visible">
+      <div class="section-row section-row--reviews">
+        <div class="section-row__head">
+          <p class="section__eyebrow section__eyebrow--left">Доверие</p>
+          <h2 class="section__title section__title--left"><span class="accent">Отзывы</span></h2>
+          <p class="section__lead section__lead--left">Реальные отзывы и результаты наших клиентов</p>
+        </div>
+        <div class="section-row__body">
+      <div class="reviews-slider">
+        <div class="reviews-slider__viewport" id="reviewsViewport">
+        <div class="reviews-slider__track" id="reviewsTrack">
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Галина, мастер своего дела. Результат всегда на высоте всех ожиданий. Даже расстояние не преграда для встреч. Я довольна своим выбором профессионала.»</p>
+            <span class="review-card__author">— Светлана, 17.05.2026</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Огромное спасибо мастеру Галине. Отличный сервис, всё чисто, стерильно. Узнала о других процедурах, акциях, скидках. Уже подумываю прийти к Галине на массаж лица. Результатом работы довольна, теперь Галина — мой мастер.»</p>
+            <span class="review-card__author">— Корюхова Инна, 09.05.2026</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Мастер очень хорошо провела процедуру. Развеяла все мои страхи! Цена не высокая для депиляции. Буду обращаться ещё! И рекомендовать друзьям! Спасибо вам большое за красоту!»</p>
+            <span class="review-card__author">— Маслова Людмила, 06.05.2026</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Я постоянный клиент у Галины Ивановны. Каждый раз, посещая её, хочется сказать спасибо за качественную работу. Брови аккуратные, грамотно подобран цвет. Всё к лицу. Взгляд сразу становится открытым и выразительным. В кабинете всегда чисто и уютно. Сама мастер всегда доброжелательная и приветливая.»</p>
+            <span class="review-card__author">— Трофимова Светлана, 26.04.2026</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Всё просто отлично.»</p>
+            <span class="review-card__author">— Харина Ксения, 20.04.2026</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Очень вежливый мастер, чувствуется профессионализм. Чисто, уютно. Всё очень понравилось. После массажа себя не узнала, лицо посвежело. Место, куда хочется вернуться! Спасибо!»</p>
+            <span class="review-card__author">— Денисова Надежда, 07.04.2026</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Мастер Галина — профессионал своего дела. Вся работа на высшем уровне. Очень внимательный, грамотный и доброжелательный человек. Благодарю талантливого мастера Галину. Студия «Май» — подарок для всех жителей Закамска.»</p>
+            <span class="review-card__author">— Коркодинова Галина, 28.03.2026</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Отличное место, прекрасный мастер. Обслуживание всегда на высоте. Всё во время, чётко, красиво, позитивно. Спасибо.»</p>
+            <span class="review-card__author">— Топчий Юлия, 08.03.2026</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Очень нравится работа мастера, посещаю уже более двух лет. Всё качественно и на высшем уровне!»</p>
+            <span class="review-card__author">— Асланян Тина, 06.03.2026</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«3 февраля посещала студию красоты «Май». Осталась очень довольна. Болотова Галина — настоящий профессионал своего дела. Консультация и работа на отлично! Спасибо.»</p>
+            <span class="review-card__author">— Смирнова Надежда, 03.02.2026</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Получила огромное удовольствие от массажа лица. Галина — профессионал своего дела! Советую.»</p>
+            <span class="review-card__author">— Кузнецова Любовь, 17.02.2025</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Всё супер! Обстановка, общение, работа.»</p>
+            <span class="review-card__author">— Васильева Елена, 14.01.2025</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Часто бываю на процедурах в данной студии. Нравится обстановка и безупречное обслуживание.»</p>
+            <span class="review-card__author">— Сакова Анна, 21.12.2024</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Была на процедуре депиляции у Галины. Остались только положительные эмоции. Приятная обстановка и хороший результат. Также получила очень полезную информацию об уходе за бровями. А после выпили ароматного чая.»</p>
+            <span class="review-card__author">— Поролло Дарья, 12.12.2024</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Огромное спасибо за качественную работу, внимание к деталям и понимание.»</p>
+            <span class="review-card__author">— Куваева Анна, 17.10.2024</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Была в студии первый раз! Я в восторге. Делала депиляцию ног. Процедура была сделана качественно, аккуратно, а главное — совсем не больно!»</p>
+            <span class="review-card__author">— Арасланова Валентина, 08.06.2024</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Вежливый, чуткий мастер, работой мастера довольна.»</p>
+            <span class="review-card__author">— Алексеева Лилия, 14.05.2024</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Галина, спасибо огромное за моё преображение, за ваши золотые ручки и профессиональный подход. Я в восторге!»</p>
+            <span class="review-card__author">— Диринг Наталья, 23.04.2024</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«У Галины оформляю брови и ещё прохожу некоторые процедуры. Теперь у меня, благодаря мастеру, идеальные брови! Галина очень внимательно, ответственно и тщательно подходит к своему делу. Даёт полезные и важные рекомендации. Рекомендую специалиста. Всем красоты и здоровья!»</p>
+            <span class="review-card__author">— Пыхтеева Елена, 06.03.2024</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Отличный мастер. Обстановка супер. Подход к каждому клиенту.»</p>
+            <span class="review-card__author">— Ширяева Екатерина, 05.03.2024</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Идеальные брови — то, без чего не может обойтись ни одна современная женщина. Благодарю вас за ответственный подход к работе. Обязательно приду снова.»</p>
+            <span class="review-card__author">— Овченкова Александра, 04.03.2024</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Хочу выразить слова благодарности мастеру Галине! Нахожусь в полном восторге, хожу теперь только к Галине, у неё просто золотые руки! Работу выполняет безукоризненно. Учитывает пожелания клиента, очень приятная в общении! Боли во время депиляции практически нет, а результат — гладкая и чистая кожа.»</p>
+            <span class="review-card__author">— Ирина, 02.03.2024</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Отлично, получила огромное удовольствие от результата работы мастера!»</p>
+            <span class="review-card__author">— Пачина Любовь, 25.02.2024</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Высококвалифицированный специалист. Приятная атмосфера в салоне. Мастер отлично справляется со своей работой, я очень рада, что когда-то мне посоветовали этого мастера, и как я говорю: за хорошим мастером хоть на луну.»</p>
+            <span class="review-card__author">— Зидымакова Ксения, 23.02.2024</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Галина, вы мастер своего дела. Комфортная обстановка, соблюдение правил в работе, советы по уходу за кожей после депиляции. Спасибо, приду к вам снова.»</p>
+            <span class="review-card__author">— Лебедева Анна, 21.02.2024</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Результатом довольна, вы мастер своего дела, огромное спасибо.»</p>
+            <span class="review-card__author">— Витушкина Светлана, 18.02.2024</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Спасибо, всё очень понравилось, особенно консультация по бровям.»</p>
+            <span class="review-card__author">— Истомина Елена, 16.02.2024</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Галина — отличный мастер! Хожу полтора года, всё делает аккуратно и профессионально. Приятная обстановка в студии.»</p>
+            <span class="review-card__author">— Горячкина Виктория, 13.02.2024</span>
+          </div>
+          <div class="review-card">
+            <span class="review-card__quote" aria-hidden="true">"</span>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Мастера знаю давно, всегда всё чистенько, аккуратненько, внимательно. А главное — так, как мне хочется.»</p>
+            <span class="review-card__author">— Болотова Ольга, 12.02.2024</span>
+          </div>
+        </div>
+        </div>
+        <div class="reviews-slider__progress" aria-hidden="true"><span class="reviews-slider__progress-bar" id="reviewsProgress"></span></div>
+        <div class="reviews-slider__controls">
+          <button type="button" class="reviews-slider__btn" id="reviewsPrev" aria-label="Предыдущий отзыв">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+          <span class="reviews-slider__counter" id="reviewsCounter" aria-live="polite">1 / 29</span>
+          <button type="button" class="reviews-slider__btn" id="reviewsNext" aria-label="Следующий отзыв">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+        </div>
+        <div class="reviews-slider__actions">
+          <div class="reviews-slider__actions-row">
+            <button type="button" class="btn btn--ghost reviews-write-btn" id="openReviewModalAdd">Добавить отзыв</button>
+            <button type="button" class="btn btn--ghost reviews-write-btn reviews-write-btn--continue" id="openReviewModalContinue" disabled>Дополнить отзыв</button>
+          </div>
+          <p class="reviews-write-notice" id="reviewSuccessNotice" hidden>Спасибо! Ваш отзыв опубликован.</p>
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Стоимость и формат -->
+  <section class="section">
+    <div class="container reveal">
+      <div class="section-row">
+        <div class="section-row__head">
+          <p class="section__eyebrow section__eyebrow--left">Формат</p>
+          <h2 class="section__title section__title--left"><span class="accent">Стоимость</span> и формат</h2>
+        </div>
+        <div class="section-row__body">
+      <div class="format-cards">
+        <a href="https://vk.ru/away.php?to=https%3A%2F%2Fmst.link%2Fbolotova_galina&utf=1" target="_blank" rel="noopener" class="format-card" data-cms-booking>
+          <span class="format-card__price">БЕЗплатно</span>
+          <p>Первая консультация косметолога</p>
+        </a>
+        <a href="https://vk.ru/away.php?to=https%3A%2F%2Fmst.link%2Fbolotova_galina&utf=1" target="_blank" rel="noopener" class="format-card" data-cms-booking>
+          <span class="format-card__price">БЕЗплатно</span>
+          <p>Консультация по восстановлению бровей</p>
+        </a>
+        <div class="format-card">
+          <span class="format-card__price">По записи</span>
+          <ul class="hours-list" aria-label="Режим работы">
+            <li><span class="hours-list__day">пн</span><span class="hours-list__time">11–20</span></li>
+            <li><span class="hours-list__day">вт</span><span class="hours-list__time">10–20</span></li>
+            <li><span class="hours-list__day">ср</span><span class="hours-list__time">12–20</span></li>
+            <li><span class="hours-list__day">чт</span><span class="hours-list__time is-off">выходной</span></li>
+            <li><span class="hours-list__day">пт</span><span class="hours-list__time">12–20</span></li>
+            <li><span class="hours-list__day">сб</span><span class="hours-list__time">15–20</span></li>
+            <li><span class="hours-list__day">вс</span><span class="hours-list__time is-off">выходной</span></li>
+          </ul>
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Запись -->
+  <section class="section section--cta" id="booking">
+    <div class="container reveal">
+      <div class="cta-row">
+        <div class="cta-row__info">
+          <h2 class="section__title section__title--light section__title--left">Готовы <span class="accent accent--light">познакомиться?</span></h2>
+          <p>Если вы давно ищете специалиста, который внимательно выслушает и поможет подобрать подходящий уход — начните с консультации.</p>
+          <ul class="cta-principles">
+            <li>Без обязательств</li>
+            <li>Без давления</li>
+            <li>С уважением к вашим пожеланиям</li>
+          </ul>
+        </div>
+      <div class="booking-form">
+        <div class="booking-form__head" aria-hidden="true">
+          <span class="booking-form__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16v16H4z"/><path d="M4 9h16M9 4v16"/></svg>
+          </span>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="contact-form__fields">
+            <input type="text" name="name" placeholder="Имя" autocomplete="given-name">
+            <input type="text" name="surname" placeholder="Фамилия" autocomplete="family-name">
+            <input type="tel" name="phone" placeholder="Номер телефона" autocomplete="tel">
+            <input type="email" name="email" placeholder="Адрес электронной почты" autocomplete="email">
+            <input type="text" name="comment" id="bookingComment" placeholder="Комментарий (необязательно)">
+          </div>
+          <p class="booking-form__message" id="bookingMessage" hidden></p>
+          <button type="submit" id="submitBooking" class="btn btn--primary btn--wide" data-cms-cta="book">Записаться</button>
+          <p class="booking-form__phone">или позвоните: <a href="tel:+79024737800" id="bookingPhone" class="booking-form__phone-link" data-phone="+7 902 473-78-00" title="Нажмите, чтобы скопировать номер">+7 902 473-78-00</a></p>
+          <label class="booking-form__agree">
+            <input type="checkbox" name="pd_consent">
+            <span>Даю согласие на обработку персональных данных</span>
+          </label>
+        </form>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Подвал -->
+  <footer class="footer" id="contacts">
+    <div class="container footer__inner reveal">
+      <div class="footer__brand">
+        <div class="footer__logo-wrap">
+          <img src="images/logo.png" alt="Логотип студии красоты Май" class="footer__logo" data-cms-img="logo" decoding="auto" loading="eager">
+        </div>
+        <p class="footer__name">Студия красоты «Май»</p>
+        <p class="footer__master">Галина Болотова</p>
+        <p class="footer__spec">Депиляция · Brow-мастер · Ламинирование ресниц · Бровология · Трихология</p>
+      </div>
+      <div class="footer__contacts footer__card">
+        <h3 class="footer__contacts-title">Контакты</h3>
+        <div class="footer__contact-list">
+          <p class="footer__contact-item footer__contact-item--address"><span class="footer__contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span><a href="https://2gis.ru/perm/firm/70000001046832862?m=55.940748%2C58.00388%2F16" target="_blank" rel="noopener" title="Открыть расположение студии на карте" data-cms-map><span data-cms="footer_address">г. Пермь, ул. Ласьвинская, 32</span></a></p>
+          <p class="footer__contact-item"><span class="footer__contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-6 9 6v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/><path d="M9 21V12h6v9"/></svg></span><span data-cms="footer_entrance">Вход с крыльца РЕНО, 2-й этаж</span></p>
+          <p class="footer__contact-item"><span class="footer__contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1 1A15 15 0 0 1 4 5a1 1 0 0 1 1-1z"/></svg></span><a href="tel:+79024737800">Телефон: +7 902 473-78-00</a></p>
+          <p class="footer__contact-item"><span class="footer__contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 8h16M4 12h10M4 16h7"/></svg></span><a href="https://vk.ru/brow_studia_may" target="_blank" rel="noopener">ВКонтакте: brow_studia_may</a></p>
+          <p class="footer__contact-item"><span class="footer__contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="3"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></span><a href="https://mst.link/bolotova_galina" target="_blank" rel="noopener" data-cms-footer-booking>Онлайн-запись</a></p>
+          <p class="footer__contact-item"><span class="footer__contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg></span><a href="https://natali202605.github.io/StudiaMai/" target="_blank" rel="noopener" data-cms-footer-site>Сайт: natali202605.github.io/StudiaMai</a></p>
+        </div>
+        <a href="https://vk.ru/away.php?to=https%3A%2F%2Fmst.link%2Fbolotova_galina&utf=1" target="_blank" rel="noopener" class="btn btn--light btn--small footer__cta" data-cms-booking data-cms-cta="footer_book">Записаться</a>
+      </div>
+      <ul class="footer__hours hours-list" data-cms="footer_hours" aria-label="Режим работы">
+        <li><span class="hours-list__day">пн</span><span class="hours-list__time">11:00–20:00</span></li>
+        <li><span class="hours-list__day">вт</span><span class="hours-list__time">10:00–20:00</span></li>
+        <li><span class="hours-list__day">ср</span><span class="hours-list__time">12:00–20:00</span></li>
+        <li><span class="hours-list__day">чт</span><span class="hours-list__time is-off">выходной</span></li>
+        <li><span class="hours-list__day">пт</span><span class="hours-list__time">12:00–20:00</span></li>
+        <li><span class="hours-list__day">сб</span><span class="hours-list__time">15:00–20:00</span></li>
+        <li><span class="hours-list__day">вс</span><span class="hours-list__time is-off">выходной</span></li>
+      </ul>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <nav class="footer__legal" aria-label="Правовая информация">
+          <a href="privacy.html">Политика конфиденциальности</a>
+          <a href="personal-data-consent.html">Согласие на обработку персональных данных</a>
+          <a href="public-offer.html">Публичная оферта</a>
+        </nav>
+        <p class="footer__legal-note">Правовые документы действуют на территории Российской Федерации.</p>
+        <p>&copy; 2026 Студия красоты «Май». Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="review-modal" id="reviewModal" hidden>
+    <div class="review-modal__backdrop" id="reviewModalBackdrop" aria-hidden="true"></div>
+    <div class="review-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="reviewModalTitle">
+      <button type="button" class="review-modal__close" id="closeReviewModal" aria-label="Закрыть">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+      <h3 class="review-modal__title" id="reviewModalTitle">Добавить отзыв</h3>
+      <p class="review-modal__lead">Поделитесь впечатлениями о визите в студию «Май»</p>
+      <form class="review-form" id="reviewForm">
+        <input type="text" name="author" id="reviewAuthor" placeholder="Ваше имя и фамилия" autocomplete="name" required>
+        <textarea name="text" id="reviewText" placeholder="Ваш отзыв" rows="5" required></textarea>
+        <p class="review-form__autosave" id="reviewDraftStatus" hidden></p>
+        <p class="review-form__message" id="reviewFormMessage" hidden></p>
+        <button type="button" class="btn btn--primary btn--wide" id="publishReview">Опубликовать</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/site-api.js?v=cms19"></script>
+  <script>
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav');
+    const navBackdrop = document.getElementById('navBackdrop');
+    const header = document.querySelector('.header');
+    const mobileMq = window.matchMedia('(max-width: 768px)');
+    const compactNavMq = window.matchMedia('(max-width: 992px)');
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)');
+    const coarsePointer = window.matchMedia('(hover: none), (pointer: coarse)');
+    let menuScrollY = 0;
+    let reviewScrollY = 0;
+
+    function isMobile() {
+      return mobileMq.matches;
+    }
+
+    function isCompactNav() {
+      return compactNavMq.matches;
+    }
+
+    function setMenuOpen(open) {
+      if (!nav || !burger) return;
+      if (!open && !nav.classList.contains('nav--open')) return;
+
+      nav.classList.toggle('nav--open', open);
+      header?.classList.toggle('header--menu-open', open);
+      if (navBackdrop) {
+        navBackdrop.hidden = !open;
+        navBackdrop.setAttribute('aria-hidden', String(!open));
+      }
+      burger.setAttribute('aria-expanded', String(open));
+      burger.setAttribute('aria-label', open ? 'Закрыть меню' : 'Открыть меню');
+      document.documentElement.classList.toggle('menu-open', open);
+
+      if (open) {
+        menuScrollY = window.scrollY;
+        document.body.classList.add('menu-open');
+        document.body.style.top = `-${menuScrollY}px`;
+      } else {
+        document.body.classList.remove('menu-open');
+        document.body.style.top = '';
+        window.scrollTo(0, menuScrollY);
+      }
+    }
+
+    burger?.addEventListener('click', () => {
+      setMenuOpen(!nav.classList.contains('nav--open'));
+    });
+
+    navBackdrop?.addEventListener('click', () => setMenuOpen(false));
+
+    nav?.querySelectorAll('.nav__link, .nav__actions a').forEach(link => {
+      link.addEventListener('click', () => setMenuOpen(false));
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!nav?.classList.contains('nav--open')) return;
+      if (nav.contains(e.target) || burger?.contains(e.target)) return;
+      setMenuOpen(false);
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && nav?.classList.contains('nav--open')) {
+        setMenuOpen(false);
+      }
+    });
+
+    let viewportChangeTimer = null;
+
+    function handleViewportChange() {
+      clearTimeout(viewportChangeTimer);
+      viewportChangeTimer = setTimeout(() => {
+        if (!isCompactNav() && nav?.classList.contains('nav--open')) {
+          setMenuOpen(false);
+        }
+        if (reviewSliderApi?.syncReviewSlider) {
+          reviewSlideWidth = 0;
+          reviewSliderApi.syncReviewSlider();
+        }
+      }, isMobile() ? 200 : 120);
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', e => {
+        const href = anchor.getAttribute('href');
+        if (!href || href === '#') return;
+        const target = document.querySelector(href);
+        if (!target) return;
+        e.preventDefault();
+        setMenuOpen(false);
+        target.scrollIntoView({
+          behavior: 'auto',
+          block: 'start'
+        });
+      });
+    });
+
+    let headerScrollTicking = false;
+    window.addEventListener('scroll', () => {
+      if (headerScrollTicking) return;
+      headerScrollTicking = true;
+      requestAnimationFrame(() => {
+        header?.classList.toggle('header--scrolled', window.scrollY > 20);
+        headerScrollTicking = false;
+      });
+    }, { passive: true });
+
+    document.querySelectorAll('.reveal').forEach(el => el.classList.add('is-visible'));
+
+    const REVIEWS_STORAGE_KEY = 'studia_mai_user_reviews';
+    const REVIEW_DRAFT_KEY = 'studia_mai_review_draft';
+
+    function escapeReviewHtml(str) {
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function formatReviewDate(date = new Date()) {
+      const day = String(date.getDate()).padStart(2, '0');
+      const month = String(date.getMonth() + 1).padStart(2, '0');
+      return `${day}.${month}.${date.getFullYear()}`;
+    }
+
+    function createReviewCardEl(author, date, text, id) {
+      const card = document.createElement('div');
+      card.className = 'review-card';
+      if (id) card.dataset.reviewId = id;
+      card.innerHTML = `
+        <span class="review-card__quote" aria-hidden="true">"</span>
+        <div class="review-card__stars">★★★★★</div>
+        <p class="review-card__text">«${escapeReviewHtml(text)}»</p>
+        <span class="review-card__author">— ${escapeReviewHtml(author)}, ${escapeReviewHtml(date)}</span>
+      `;
+      return card;
+    }
+
+    function isValidReview(review) {
+      return Boolean(
+        review &&
+        String(review.author || '').trim() &&
+        String(review.text || '').trim()
+      );
+    }
+
+    function loadStoredReviews() {
+      try {
+        const list = JSON.parse(localStorage.getItem(REVIEWS_STORAGE_KEY) || '[]');
+        return Array.isArray(list) ? list.filter(isValidReview) : [];
+      } catch {
+        return [];
+      }
+    }
+
+    function saveStoredReview(review) {
+      const stored = loadStoredReviews();
+      if (stored.some(item => item.id === review.id)) return;
+      stored.unshift(review);
+      localStorage.setItem(REVIEWS_STORAGE_KEY, JSON.stringify(stored.slice(0, 50)));
+    }
+
+    function loadReviewDraft() {
+      try {
+        return JSON.parse(localStorage.getItem(REVIEW_DRAFT_KEY) || 'null');
+      } catch {
+        return null;
+      }
+    }
+
+    function saveReviewDraft(author, text) {
+      const draft = {
+        author: String(author || '').trim(),
+        text: String(text || '').trim(),
+        savedAt: new Date().toISOString()
+      };
+      localStorage.setItem(REVIEW_DRAFT_KEY, JSON.stringify(draft));
+      return draft;
+    }
+
+    function clearReviewDraft() {
+      localStorage.removeItem(REVIEW_DRAFT_KEY);
+    }
+
+    const track = document.getElementById('reviewsTrack');
+    const counterEl = document.getElementById('reviewsCounter');
+    let reviewCards = [];
+    let reviewIndex = 0;
+    let reviewSliderApi = null;
+    let reviewSlideWidth = 0;
+
+    if (track) {
+      const progressBar = document.getElementById('reviewsProgress');
+      const viewport = document.getElementById('reviewsViewport');
+      const slider = track.closest('.reviews-slider');
+      let autoplayId = null;
+      let touchStartX = 0;
+      let touchStartY = 0;
+      let sliderSyncPending = false;
+
+      function refreshReviewCards() {
+        reviewCards = [...track.querySelectorAll('.review-card')];
+      }
+
+      function sanitizeReviewCards() {
+        track.querySelectorAll('.review-card[data-review-id]').forEach(card => {
+          const textEl = card.querySelector('.review-card__text');
+          const text = textEl?.textContent?.replace(/[«»"' \s]/g, '') || '';
+          if (!text) card.remove();
+        });
+        refreshReviewCards();
+        if (reviewIndex >= reviewCards.length) reviewIndex = 0;
+      }
+
+      function updateHeroReviewsCount() {
+        const el = document.querySelector('[data-reviews-count]');
+        if (!el) return;
+        el.textContent = String(reviewCards.length);
+      }
+
+      function updateReviewCounter() {
+        if (counterEl && reviewCards.length) {
+          counterEl.textContent = `${reviewIndex + 1} / ${reviewCards.length}`;
+        }
+        updateHeroReviewsCount();
+      }
+
+      function getReviewSlideWidth() {
+        const measureEl = viewport || track.parentElement || track;
+        const width = Math.round(
+          isMobile() && viewport
+            ? viewport.clientWidth
+            : (measureEl.getBoundingClientRect().width || measureEl.offsetWidth)
+        );
+        if (!width) return 0;
+        if (width === reviewSlideWidth) return reviewSlideWidth;
+        reviewSlideWidth = width;
+        viewport?.style.setProperty('--review-slide-width', `${width}px`);
+        return reviewSlideWidth;
+      }
+
+      function goToReview(i, animate = true) {
+        if (!reviewCards.length) return;
+        reviewIndex = (i + reviewCards.length) % reviewCards.length;
+        const slideWidth = getReviewSlideWidth();
+        if (!slideWidth) return;
+        const useMotion = animate && !prefersReducedMotion.matches;
+        track.style.transition = useMotion ? '' : 'none';
+        track.style.transform = `translate3d(-${reviewIndex * slideWidth}px, 0, 0)`;
+        updateReviewCounter();
+        if (progressBar) {
+          progressBar.style.width = `${((reviewIndex + 1) / reviewCards.length) * 100}%`;
+        }
+        if (!useMotion) {
+          requestAnimationFrame(() => { track.style.transition = ''; });
+        }
+      }
+
+      function stopAutoplay() {
+        if (autoplayId !== null) {
+          clearInterval(autoplayId);
+          autoplayId = null;
+        }
+      }
+
+      function startAutoplay() {
+        if (prefersReducedMotion.matches || isMobile() || coarsePointer.matches || reviewCards.length < 2) return;
+        stopAutoplay();
+        autoplayId = setInterval(() => goToReview(reviewIndex + 1), 7000);
+      }
+
+      function syncReviewSlider() {
+        if (sliderSyncPending) return;
+        sliderSyncPending = true;
+        requestAnimationFrame(() => {
+          sliderSyncPending = false;
+          if (!getReviewSlideWidth()) return;
+          goToReview(reviewIndex, false);
+        });
+      }
+
+      function prependUserReviews(reviews) {
+        const fragment = document.createDocumentFragment();
+        reviews.forEach(review => {
+          if (!track.querySelector(`[data-review-id="${review.id}"]`)) {
+            fragment.appendChild(createReviewCardEl(review.author, review.date, review.text, review.id));
+          }
+        });
+        if (fragment.childNodes.length) {
+          track.insertBefore(fragment, track.firstChild);
+          reviewIndex = 0;
+          refreshReviewCards();
+          syncReviewSlider();
+        }
+      }
+
+      function addReviewCard(author, date, text, id) {
+        const card = createReviewCardEl(author, date, text, id);
+        track.insertBefore(card, track.firstChild);
+        reviewIndex = 0;
+        refreshReviewCards();
+        syncReviewSlider();
+        stopAutoplay();
+        startAutoplay();
+        return card;
+      }
+
+      reviewSliderApi = { addReviewCard, goToReview, syncReviewSlider };
+      window.reviewSliderApi = reviewSliderApi;
+
+      document.addEventListener('studia-mai-cms-applied', () => {
+        sanitizeReviewCards();
+        reviewSlideWidth = 0;
+        refreshReviewCards();
+        syncReviewSlider();
+        updateReviewCounter();
+        if (progressBar && reviewCards.length) {
+          progressBar.style.width = `${((reviewIndex + 1) / reviewCards.length) * 100}%`;
+        }
+      });
+
+      sanitizeReviewCards();
+      prependUserReviews(loadStoredReviews());
+      sanitizeReviewCards();
+
+      function loadRemoteReviews() {
+        if (!window.STUDIA_MAI_API) return;
+        fetch(`${window.STUDIA_MAI_API}/api/reviews`)
+          .then(res => res.ok ? res.json() : null)
+          .then(data => {
+            if (!data?.reviews?.length) return;
+            const fresh = [];
+            data.reviews.forEach(review => {
+              if (!track.querySelector(`[data-review-id="${review.id}"]`)) {
+                fresh.push(review);
+                saveStoredReview(review);
+              }
+            });
+            prependUserReviews(fresh);
+          })
+          .catch(() => {});
+      }
+
+      const reviewsSection = document.getElementById('reviews');
+      if (reviewsSection && 'IntersectionObserver' in window) {
+        const reviewsLoadObs = new IntersectionObserver((entries) => {
+          if (entries[0]?.isIntersecting) {
+            loadRemoteReviews();
+            reviewsLoadObs.disconnect();
+          }
+        }, { rootMargin: '180px 0px' });
+        reviewsLoadObs.observe(reviewsSection);
+      } else {
+        loadRemoteReviews();
+      }
+
+      refreshReviewCards();
+      updateReviewCounter();
+      if (progressBar && reviewCards.length) {
+        progressBar.style.width = `${((reviewIndex + 1) / reviewCards.length) * 100}%`;
+      }
+
+      let reviewSliderReady = false;
+
+      function initReviewSlider() {
+        reviewSlideWidth = 0;
+        syncReviewSlider();
+        if (getReviewSlideWidth()) reviewSliderReady = true;
+        startAutoplay();
+      }
+
+      requestAnimationFrame(initReviewSlider);
+      window.addEventListener('load', () => {
+        if (!reviewSliderReady) initReviewSlider();
+      }, { once: true });
+
+      const reviewsReveal = track.closest('.reveal');
+      if (viewport && typeof ResizeObserver !== 'undefined') {
+        let resizeTimer = null;
+        const resizeDelay = isMobile() ? 200 : 160;
+        const reviewResizeObs = new ResizeObserver(() => {
+          clearTimeout(resizeTimer);
+          resizeTimer = setTimeout(() => {
+            reviewSlideWidth = 0;
+            syncReviewSlider();
+          }, resizeDelay);
+        });
+        reviewResizeObs.observe(viewport);
+      }
+
+      if (reviewsReveal && !reviewsReveal.classList.contains('is-visible')) {
+        const reviewRevealObs = new IntersectionObserver((entries) => {
+          if (entries[0]?.isIntersecting) {
+            syncReviewSlider();
+            reviewRevealObs.disconnect();
+          }
+        }, { threshold: 0.05 });
+        reviewRevealObs.observe(reviewsReveal);
+      }
+
+      document.getElementById('reviewsPrev')?.addEventListener('click', () => {
+        stopAutoplay();
+        goToReview(reviewIndex - 1);
+      });
+      document.getElementById('reviewsNext')?.addEventListener('click', () => {
+        stopAutoplay();
+        goToReview(reviewIndex + 1);
+      });
+
+      slider?.addEventListener('mouseenter', stopAutoplay);
+      slider?.addEventListener('mouseleave', startAutoplay);
+
+      const swipeTarget = viewport || track;
+      swipeTarget?.addEventListener('touchstart', e => {
+        if (!e.touches.length) return;
+        touchStartX = e.touches[0].clientX;
+        touchStartY = e.touches[0].clientY;
+        stopAutoplay();
+      }, { passive: true });
+
+      swipeTarget?.addEventListener('touchend', e => {
+        if (!e.changedTouches.length) return;
+        const diffX = touchStartX - e.changedTouches[0].clientX;
+        const diffY = touchStartY - e.changedTouches[0].clientY;
+        const threshold = isMobile() ? 36 : 50;
+        if (Math.abs(diffX) > threshold && Math.abs(diffX) > Math.abs(diffY) * 1.15) {
+          goToReview(reviewIndex + (diffX > 0 ? 1 : -1));
+        }
+      }, { passive: true });
+
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden) stopAutoplay();
+        else startAutoplay();
+      });
+    }
+
+    const reviewModal = document.getElementById('reviewModal');
+    const reviewForm = document.getElementById('reviewForm');
+    const reviewFormMessage = document.getElementById('reviewFormMessage');
+    const reviewDraftStatus = document.getElementById('reviewDraftStatus');
+    const reviewAuthorInput = document.getElementById('reviewAuthor');
+    const reviewTextInput = document.getElementById('reviewText');
+    const continueReviewBtn = document.getElementById('openReviewModalContinue');
+    let draftSaveTimer = null;
+
+    function hasUserPublishedReview() {
+      return loadStoredReviews().length > 0;
+    }
+
+    function updateContinueButton() {
+      if (!continueReviewBtn) return;
+      const canContinue = hasUserPublishedReview();
+      continueReviewBtn.disabled = !canContinue;
+      continueReviewBtn.classList.toggle('is-disabled', !canContinue);
+    }
+
+    function showDraftStatus(draft) {
+      if (!reviewDraftStatus || !draft) {
+        if (reviewDraftStatus) reviewDraftStatus.hidden = true;
+        return;
+      }
+      reviewDraftStatus.textContent = `Черновик сохранён · ${formatReviewDate(new Date(draft.savedAt))}`;
+      reviewDraftStatus.hidden = false;
+    }
+
+    function fillReviewForm(author, text) {
+      if (reviewAuthorInput) reviewAuthorInput.value = author || '';
+      if (reviewTextInput) reviewTextInput.value = text || '';
+    }
+
+    function setReviewModalOpen(open, mode = 'add') {
+      if (!reviewModal) return;
+      if (open && mode === 'continue' && !hasUserPublishedReview()) {
+        const notice = document.getElementById('reviewSuccessNotice');
+        if (notice) {
+          notice.textContent = 'Дополнить отзыв могут только клиенты, которые уже оставили отзыв';
+          notice.hidden = false;
+          clearTimeout(notice._hideTimer);
+          notice._hideTimer = setTimeout(() => { notice.hidden = true; }, 3200);
+        }
+        return;
+      }
+      reviewModal.hidden = !open;
+      document.documentElement.classList.toggle('review-modal-open', open);
+      const title = document.getElementById('reviewModalTitle');
+      if (open) {
+        if (nav?.classList.contains('nav--open')) setMenuOpen(false);
+        reviewScrollY = window.scrollY;
+        document.body.classList.add('review-modal-open');
+        document.body.style.top = `-${reviewScrollY}px`;
+        if (mode === 'continue') {
+          const draft = loadReviewDraft();
+          const lastReview = loadStoredReviews()[0];
+          if (title) title.textContent = 'Дополнить отзыв';
+          fillReviewForm(draft?.author || lastReview?.author || '', draft?.text || lastReview?.text || '');
+          showDraftStatus(draft);
+        } else {
+          if (title) title.textContent = 'Добавить отзыв';
+          fillReviewForm('', '');
+          if (reviewDraftStatus) reviewDraftStatus.hidden = true;
+        }
+        if (reviewFormMessage) reviewFormMessage.hidden = true;
+        if (!isMobile() && finePointer.matches) {
+          requestAnimationFrame(() => reviewAuthorInput?.focus({ preventScroll: true }));
+        }
+      } else {
+        document.body.classList.remove('review-modal-open');
+        document.body.style.top = '';
+        window.scrollTo(0, reviewScrollY);
+      }
+    }
+
+    function persistReviewDraft() {
+      const author = reviewAuthorInput?.value || '';
+      const text = reviewTextInput?.value || '';
+      if (!author.trim() && !text.trim()) {
+        clearReviewDraft();
+        if (reviewDraftStatus) reviewDraftStatus.hidden = true;
+        updateContinueButton();
+        return;
+      }
+      const draft = saveReviewDraft(author, text);
+      showDraftStatus(draft);
+      updateContinueButton();
+    }
+
+    function scheduleDraftSave() {
+      clearTimeout(draftSaveTimer);
+      draftSaveTimer = setTimeout(persistReviewDraft, 450);
+    }
+
+    function closeReviewModal() {
+      clearTimeout(draftSaveTimer);
+      const wasOpen = reviewModal && !reviewModal.hidden;
+      if (wasOpen) persistReviewDraft();
+      if (reviewModal) reviewModal.hidden = true;
+      document.documentElement.classList.remove('review-modal-open');
+      document.body.classList.remove('review-modal-open');
+      if (wasOpen) {
+        document.body.style.top = '';
+        window.scrollTo(0, reviewScrollY);
+      }
+      if (reviewFormMessage) reviewFormMessage.hidden = true;
+    }
+
+    function showReviewFormMessage(text, ok) {
+      if (!reviewFormMessage) return;
+      reviewFormMessage.textContent = text;
+      reviewFormMessage.className = 'review-form__message' + (ok ? ' review-form__message--ok' : ' review-form__message--err');
+      reviewFormMessage.hidden = false;
+    }
+
+    document.getElementById('openReviewModalAdd')?.addEventListener('click', () => setReviewModalOpen(true, 'add'));
+    document.getElementById('openReviewModalContinue')?.addEventListener('click', () => setReviewModalOpen(true, 'continue'));
+    document.getElementById('closeReviewModal')?.addEventListener('click', closeReviewModal);
+    document.getElementById('reviewModalBackdrop')?.addEventListener('click', closeReviewModal);
+
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && reviewModal && !reviewModal.hidden) closeReviewModal();
+    });
+
+    reviewAuthorInput?.addEventListener('input', scheduleDraftSave);
+    reviewTextInput?.addEventListener('input', scheduleDraftSave);
+
+    reviewForm?.addEventListener('submit', e => e.preventDefault());
+
+    document.getElementById('publishReview')?.addEventListener('click', async () => {
+      const author = reviewAuthorInput?.value?.trim() || '';
+      const text = reviewTextInput?.value?.trim() || '';
+
+      if (!isValidReview({ author, text })) {
+        showReviewFormMessage('Заполните имя и текст отзыва', false);
+        return;
+      }
+
+      const review = {
+        id: `u${Date.now()}`,
+        author,
+        text,
+        date: formatReviewDate()
+      };
+
+      let saved = false;
+      const api = window.STUDIA_MAI_API;
+      if (api) {
+        try {
+          const res = await fetch(`${api}/api/reviews`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ author, text })
+          });
+          const json = await res.json().catch(() => ({}));
+          if (res.ok && json.review) {
+            review.id = json.review.id;
+            review.date = json.review.date;
+            saved = true;
+          }
+        } catch {
+          /* сохраним локально */
+        }
+      }
+
+      saveStoredReview(review);
+      reviewSliderApi?.addReviewCard(review.author, review.date, review.text, review.id);
+      clearReviewDraft();
+      updateContinueButton();
+      closeReviewModal();
+      fillReviewForm('', '');
+      if (reviewDraftStatus) reviewDraftStatus.hidden = true;
+
+      const notice = document.getElementById('reviewSuccessNotice');
+      if (notice) {
+        notice.textContent = saved ? 'Спасибо! Ваш отзыв опубликован.' : 'Спасибо! Ваш отзыв добавлен в слайдер.';
+        notice.hidden = false;
+        setTimeout(() => { notice.hidden = true; }, 5000);
+      }
+      document.getElementById('reviews')?.scrollIntoView({
+        behavior: 'auto',
+        block: 'start'
+      });
+    });
+
+    updateContinueButton();
+
+
+    // Телефон в форме: звонок на мобильных, копирование на компьютере
+    const bookingPhone = document.getElementById('bookingPhone');
+
+    bookingPhone?.addEventListener('click', async (e) => {
+      if (!finePointer.matches) return;
+
+      e.preventDefault();
+      const phoneNumber = bookingPhone.dataset.phone || '+7 902 473-78-00';
+
+      try {
+        await navigator.clipboard.writeText(phoneNumber);
+        bookingPhone.classList.add('is-copied');
+        setTimeout(() => bookingPhone.classList.remove('is-copied'), 2000);
+      } catch {
+        window.prompt('Скопируйте номер:', phoneNumber);
+      }
+    });
+
+    window.addEventListener('resize', handleViewportChange, { passive: true });
+    mobileMq.addEventListener('change', handleViewportChange);
+    if (window.visualViewport) {
+      window.visualViewport.addEventListener('resize', handleViewportChange, { passive: true });
+    }
+  </script>
+
+</body>
+</html>
